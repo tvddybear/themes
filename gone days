@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+GONE DAYS : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code or it is a code intended to be publicly available.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:background" content=""/>
+
+<meta name="image:img 1" content="https://via.placeholder.com/250x250"/>
+<meta name="image:img 2" content="https://via.placeholder.com/250x250"/>
+
+<meta name="image:muse 1" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 2" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 3" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 4" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 5" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 6" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 7" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 8" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 9" content="https://via.placeholder.com/170x85"/>
+<meta name="image:muse 10" content="https://via.placeholder.com/170x85"/>
+
+<meta name="color:background" content="#fff"/>
+<meta name="color:container" content="#f8f8f8"/>
+<meta name="color:borders" content="#eee"/>
+<meta name="color:posts" content="#fff"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#eee"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#eee"/>
+<meta name="color:tags hover" content="#eee"/>
+<meta name="color:italic" content="#eee"/>
+<meta name="color:bold" content="#eee"/>
+<meta name="color:accent" content="#eee"/>
+
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+
+<meta name="text:title part 1" content="lorem ipsum dolor sit amet"/>
+<meta name="text:title part 2" content="consect tetur edipi scing elit"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "gratisan"; src: url('https://dl.dropboxusercontent.com/s/z5sgs5wktjnz0lj/GRATISAN.ttf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:{color:posts};
+    font-size:11px;
+    border-radius:5px;
+    border:1px {color:borders} solid;
+    padding:3px 8px 3px 8px;
+    color:{color:text};
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:'space mono';
+    font-size:12px;
+    background:{color:background};
+    background-image:url('{image:background}');
+    background-size:cover;
+    color:{color:text};
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:50px;
+    line-height:50px;
+    margin:20px 0px 0px 0px;
+    font-family:'gratisan';
+    text-align:center;
+    letter-spacing:2px;
+}
+
+h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-weight:600;
+}
+
+small {
+    font-size:12px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:329px;
+    margin-top:10px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:308px;
+}
+
+blockquote img {
+    max-width:329px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:308px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-25px;
+}
+
+ol {
+    margin-left:-25px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:630px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    overflow:visible;
+    background:{color:container};
+    border-radius:15px;
+}
+
+/* EMBELLISHMENTS */
+    
+#lefttitle {
+    width:280px;
+    height:450px;
+    position:absolute;
+    top:25px;
+    left:-180px;
+    font-family:'gratisan';
+    font-size:100px;
+    line-height:88px;
+    text-align:right;
+    color:{color:accent};
+}
+
+#righttitle {
+    width:280px;
+    height:450px;
+    position:absolute;
+    top:25px;
+    right:-180px;
+    font-family:'gratisan';
+    font-size:100px;
+    text-align:left;
+    line-height:88px;
+    color:{color:accent};
+}
+
+#linkstop {
+    width:430px;
+    height:40px;
+    position:absolute;
+    top:-40px;
+    left:50px;
+    background:{color:posts};
+    border-radius:15px 15px 0px 0px;
+    line-height:40px;
+    text-align-last:justify;
+    padding:0px 50px 0px 50px;
+}
+
+#linksbottom {
+    width:430px;
+    height:40px;
+    position:absolute;
+    bottom:-40px;
+    left:50px;
+    background:{color:posts};
+    border-radius:0px 0px 15px 15px;
+    line-height:40px;
+    text-align-last:justify;
+    padding:0px 50px 0px 50px;
+}
+
+#leftimage {
+    width:280px;
+    height:280px;
+    border-radius:500px;
+    overflow:hidden;
+    position:absolute;
+    bottom:30px;
+    left:-250px;
+    background:#fff;
+}
+
+    #leftimage img {
+        width:280px;
+        height:auto;
+    }
+    
+#rightimage {
+    width:280px;
+    height:280px;
+    border-radius:170px;
+    overflow:hidden;
+    position:absolute;
+    top:100px;
+    right:-250px;
+    background:#fff;
+}
+
+    #rightimage img {
+        width:280px;
+        height:auto;
+    }
+
+/* TABS */
+    
+.tab {
+    display:none;
+    width:350px;
+    padding:0px 20px 0px 20px;
+    height:460px;
+    position:absolute;
+    top:20px;
+    left:120px;
+    overflow-y:scroll;
+    text-align:justify;
+    animation:FadeIn .5s;
+}
+
+    .tab h1 {
+        color:{color:bold};
+        font-size:45px;
+    }
+    
+    .close {
+        width:350px;
+        text-align:center;
+    }
+    
+    @keyframes FadeIn {
+        from{opacity:0;}
+        to{opacity:1;}
+    }
+    
+/* MUSES TAB */
+
+#muses {
+    top:15px;
+    height:470px;
+}
+    
+#musboxes {
+    width:360px;
+    height:440px;
+    margin-top:10px;
+    overflow-y:scroll;
+}
+
+    .musebox {
+        width:170px;
+        height:140px;
+        float:left;
+        margin-bottom:10px;
+        margin-right:10px;
+    }
+    
+        .musebox img {
+            width:170px;
+            height:85px;
+            border-radius:15px;
+            overflow:hidden;
+            float:left;
+        }
+        
+        .mustext {
+            width:140px;
+            height:45px;
+            float:left;
+            margin-top:10px;
+            margin-left:15px;
+            text-align:justify;
+            text-align-last:center;
+            line-height:15px;
+        }
+        
+            .mustext span {
+                font-family:'gratisan';
+                font-size:14px;
+                color:{color:accent};
+            }
+
+/* NAV TAB */
+    
+#nlinks {
+    width:350px;
+    height:430px;
+    margin-top:10px;
+    overflow-y:scroll;
+}
+
+    .nlink {
+        width:170px;
+        height:100px;
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        border-radius:10px;
+        text-align:center;
+        line-height:100px;
+        font-family:'gratisan';
+        font-size:30px;
+        color:{color:posts};
+        background:{color:italic};
+    }
+    
+/* POSTS STYLING */
+
+.posts {
+    width:430px;
+    height:500px;
+    overflow-y:scroll;
+    position:absolute;
+    right:100px;
+    top:0px;
+}
+
+.postholder {
+    width:390px;
+    height:auto;
+    display:inline-block;
+    margin-left:19px;
+    margin-top:19px;
+    margin-bottom:0px;
+    overflow:hidden;
+    background:{color:posts};
+    border-radius:15px;
+}
+
+.post {
+    background:{color:posts};
+    width:350px;
+    display:inline-block;
+    height:auto;
+    padding:0px 20px 10px 20px;
+    font-size:12px;
+    text-align:justify;
+}
+
+.postholder:last-of-type {
+    margin-bottom:20px;
+}
+
+.post img {
+    max-width:350px;
+    height:auto;
+    border-radius:5px;
+}
+
+.photoset {
+    width:350px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:330px;
+    text-align:left;
+    padding:10px;
+    background:{color:borders};
+    color:{color:accent};
+    border-radius:10px 10px 0px 0px;
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:328px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:borders} solid;
+    border-radius:0px 0px 10px 10px;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:330px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:250px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:350px;
+    text-align:justify;
+    text-align-last:center;
+    padding:10px 20px 20px 20px;
+    font-size:11px;
+    margin-left:20px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:390px;
+    height:30px;
+    padding-bottom:0px;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+.postinfo span {
+    margin-right:5px;
+}
+
+.postdate {
+    float:left;
+    padding-right:10px;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-left:20px;
+    margin-top:10px;
+    border-right:1px {color:borders} solid;
+}
+
+.postnotestat {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:10px;
+    border-right:1px {color:borders} solid;
+}
+
+.reblogpost {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+/* PAGINATION */
+
+#pagibox {
+    width:390px;
+    height:30px;
+    padding:0px;
+    line-height:30px;
+    font-size:14px;
+    text-align:center;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    word-spacing:20px;
+    color:{color:text};
+    border-radius:10px;
+}
+
+#pagibox a {
+    color:{color:text};
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:20px;
+    height:20px;
+    padding:0px;
+    border-radius:10px;
+    font-size:18px;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    line-height:20px;
+    text-align:center;
+    color:{color:accent};
+}
+
+.ananas a {
+    color:{color:accent};
+}
+
+/* TUMBLR CONTROLS */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    transform:scale(0.5);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.5);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.5);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.5);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.5);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+
+</style>
+</head>
+<body>
+
+<script>
+    
+function openTab(tabname){
+    document.getElementsByClassName('posts')[0].style.display = 'none';
+    var x = document.getElementsByClassName('tab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    document.getElementById(tabname).style.display = 'block';
+}
+    
+</script>
+
+<div id="container">
+ 
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {DayOfMonth} {ShortMonth} {Year}{/block:Date}</a></div>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {TimeAgo} {/block:Date}</a></div>
+{/block:IfTimeAgoFormat}
+<div class="postnotestat"><a href="{Permalink}"><span class="lnr lnr-tag"></span> {NoteCountWithLabel}</a></div>
+<div class="reblogpost"><a href="{ReblogURL}"><span class="lnr lnr-sync"></span> reblog</a></div>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img style="margin-top:10px;" src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+</div>
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags">{block:Tags} <div class="tag"><a href="{TagURL}"># {TAG}</a></div> {/block:Tags}</div> {/block:HasTags}
+
+{block:PostNotes}<div class="postnotes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+{block:Pagination}
+    <div id="pagibox">{block:PreviousPage}<a href="{PreviousPage}" title="BACK"><span class="fas fa-arrow-left"></span></a>{/block:PreviousPage} {block:NextPage}<a href="{NextPage}" title="FORTH"><span class="fas fa-arrow-right"></span></a>{/block:NextPage}
+        </div>
+{/block:Pagination}
+    
+</div>
+
+<!-- END POSTS -->
+
+<!-- EMBELLISHMENTS -->
+
+<div id="leftimage"><img src="{image:img 1}"/></div>
+<div id="rightimage"><img src="{image:img 2}"/></div>
+
+<div id="lefttitle">{text:title part 1}</div>
+<div id="righttitle">{text:title part 2}</div>
+
+<div id="linkstop">
+    
+    <a href="/">HOME</a> 
+    <a href="/ask">ASKBOX</a> 
+    <a href="/archive">ARCHIVE</a> 
+    <a href="https://www.tumblr.com">DASHBOARD</a>
+    
+</div>
+
+<div id="linksbottom">
+    
+    <a onclick="openTab('plot')">PLOT</a> 
+    <a onclick="openTab('rules')">RULES</a> 
+    <a onclick="openTab('muses')">MUSES</a> 
+    <a onclick="openTab('navi')">NAVIGATE</a>
+    
+</div>
+
+<!-- TABS -->
+
+<!-- PLOT TAB -->
+
+<div id="plot" class="tab">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display = 'none';document.getElementsByClassName('posts')[0].style.display = 'block';" style="cursor:pointer;">close this tab</span></div>
+    
+    <h1>THE STORY SO FAR</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros. Maecenas semper nunc et lorem fermentum, quis tempus ipsum volutpat. Etiam iaculis, quam sit amet ultricies tincidunt, elit ligula tincidunt urna, non fringilla justo ipsum ut diam. Ut eget ultrices ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut fringilla tempor tincidunt. Vestibulum sed erat non turpis commodo fermentum. Duis rhoncus hendrerit orci vitae viverra. Nulla aliquet turpis quam, vitae consequat risus semper vitae. Duis mi diam, pharetra et magna vitae, maximus eleifend massa. Mauris efficitur, tellus et placerat fringilla, turpis dui volutpat tellus, id varius ipsum lorem id nunc.</p>
+    
+    <p>Nullam laoreet nisl sagittis faucibus cursus. Nulla facilisi. Pellentesque ac turpis pellentesque, porttitor mauris at, rutrum tortor. In egestas ut enim ut feugiat. Duis volutpat neque euismod maximus maximus. Donec tincidunt velit eget pulvinar commodo. Nulla commodo ullamcorper tempor. Ut pulvinar ante mi, eget convallis mi ornare quis.</p>
+    
+    <p>Vivamus gravida dolor et eros aliquet placerat. In sodales consectetur dolor, blandit fringilla neque pretium nec. Nullam enim arcu, bibendum sit amet faucibus in, tempus a nibh. Mauris et dignissim quam. Aenean tellus urna, tincidunt et ex in, vulputate rhoncus ligula. Donec scelerisque erat ac leo fringilla accumsan at sit amet orci. Sed auctor pulvinar sollicitudin. Proin interdum eu ligula quis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque sollicitudin dolor sit amet maximus ultricies. Proin aliquam vel tellus a imperdiet. Curabitur aliquam tellus arcu, ac suscipit justo aliquam sed. In et nibh vehicula nulla fringilla euismod.</p>
+    
+</div>
+
+<!-- RULES TAB -->
+
+<div id="rules" class="tab">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display = 'none';document.getElementsByClassName('posts')[0].style.display = 'block';" style="cursor:pointer;">close this tab</span></div>
+    
+    <h1>the regulations</h1>
+    
+    <p><b>ONE: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+    <p><b>TWO: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+    <p><b>THREE: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+    <p><b>FOUR: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+    <p><b>FIVE: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+    <p><b>SIX: THING</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel sem id ex venenatis tincidunt eu quis orci. Ut nec tortor rhoncus, pretium quam vel, consequat eros.</p>
+    
+</div>
+
+<!-- MUSES TAB -->
+
+<div id="muses" class="tab">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display = 'none';document.getElementsByClassName('posts')[0].style.display = 'block';" style="cursor:pointer;">close this tab</span></div>
+    
+    <div id="musboxes">
+        
+        <!-- MUSE 1 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 1}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 2 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 2}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 3 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 3}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 4 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 4}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 5 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 5}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 6 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 6}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 7 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 7}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 8 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 8}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 9 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 9}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+        <!-- MUSE 10 -->
+        
+        <div class="musebox">
+            
+            <img src="{image:muse 10}"/>
+            <div class="mustext">
+                <span>muse name</span> & age & gender & whatever<br>
+                <a href="/bio">bio</a> + <a href="/tagged/muse name">tag</a> + <a href="/url">link</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- NAV TAB -->
+
+<div id="navi" class="tab">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display = 'none';document.getElementsByClassName('posts')[0].style.display = 'block';" style="cursor:pointer;">close this tab</span></div>
+    
+    <div id="nlinks">
+        
+        <a href="/"><div class="nlink">link name</div></a>
+        <a href="/"><div style="margin-right:0px;" class="nlink">link name</div></a>
+        
+        <a href="/"><div class="nlink">link name</div></a>
+        <a href="/"><div style="margin-right:0px;" class="nlink">link name</div></a>
+        
+        <a href="/"><div class="nlink">link name</div></a>
+        <a href="/"><div style="margin-right:0px;" class="nlink">link name</div></a>
+        
+        <a href="/"><div class="nlink">link name</div></a>
+        <a href="/"><div style="margin-right:0px;" class="nlink">link name</div></a>
+        
+    </div>
+    
+</div>
+
+<!-- END TABS -->
+
+</div>
+
+<!-- END CONTAINER -->
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+    <div class="ananas"><a href="https://sprfluous.tumblr.com" title="code by anna"><span class="th th-pineapple-o"></span></a></div>
+
+</body>
+</html>
