@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+I LIKE THAT : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code or it is a code intended to be publicly available.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:background" content=""/>
+
+<meta name="image:sidebar image" content="https://via.placeholder.com/250x250"/>
+
+<meta name="image:muse 1" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 2" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 3" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 4" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 5" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 6" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 7" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 8" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 9" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 10" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 11" content="https://via.placeholder.com/80x80"/>
+<meta name="image:muse 12" content="https://via.placeholder.com/80x80"/>
+
+<meta name="color:background" content="#fff"/>
+<meta name="color:container" content="#eee"/>
+<meta name="color:post background" content="#fff"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#eee"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#eee"/>
+<meta name="color:tags hover" content="#eee"/>
+<meta name="color:italic" content="#eee"/>
+<meta name="color:bold" content="#eee"/>
+<meta name="color:accent" content="#eee"/>
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+
+<meta name="text:sidebar title" content="i like that"/>
+
+<meta name="text:your url" content="here"/>
+
+<meta name="text:nav tab title" content="my entire body is shaking"/>
+
+<meta name="text:navi tab description" content="lorem ipsum dolor sit amet, consectetur adipiscing elit. fusce ornare mauris vitae ante vestibulum, vel pellentesque erat pharetra. proin eu enim eget nulla congue pharetra non a odio. cras quis nisi quis ante condimentum mollis. phasellus accumsan nec mi elementum volutpat. nunc condimentum ipsum odio, quis volutpat libero auctor ut. mauris enim justo, euismod vitae nulla at, rutrum luctus enim. pellentesque vel sem eleifend, vulputate tellus a, imperdiet orci. nam at diam fringilla, tincidunt ipsum sed, pellentesque libero. donec molestie sem odio, nec lobortis sem efficitur in. nunc mollis eu nisi nec condimentum. nunc porta metus ac mattis maximus. phasellus sit amet nisl at risus porta dapibus dapibus eu lorem. integer velit enim, rutrum sed gravida vitae, congue nec justo. integer nec luctus mi."/>
+
+<meta name="text:link 1 url" content="/url"/>
+<meta name="text:link 1 title" content="link name"/>
+
+<meta name="text:link 2 url" content="/url"/>
+<meta name="text:link 2 title" content="link name"/>
+
+<meta name="text:link 3 url" content="/url"/>
+<meta name="text:link 3 title" content="link name"/>
+
+<meta name="text:link 4 url" content="/url"/>
+<meta name="text:link 4 title" content="link name"/>
+
+<meta name="text:link 5 url" content="/url"/>
+<meta name="text:link 5 title" content="link name"/>
+
+<meta name="text:link 6 url" content="/url"/>
+<meta name="text:link 6 title" content="link name"/>
+
+<meta name="text:link 7 url" content="/url"/>
+<meta name="text:link 7 title" content="link name"/>
+
+<meta name="text:link 8 url" content="/url"/>
+<meta name="text:link 8 title" content="link name"/>
+
+<meta name="text:link 9 url" content="/url"/>
+<meta name="text:link 9 title" content="link name"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "brilliant"; src: url('https://dl.dropboxusercontent.com/s/wmxgpanbzb15hz8/Brilliant%20signature%20%20regular.otf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:{color:post background};
+    font-size:11px;
+    border-radius:5px;
+    border:1px {color:container};
+    padding:3px 8px 3px 8px;
+    color:{color:text};
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:rubik;
+    font-size:12px;
+    background:{color:background};
+    background-image:url('{image:background}');
+    background-size:cover;
+    color:{color:text};
+    overflow-y:scroll;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:50px;
+    line-height:50px;
+    margin:0px;
+    font-family:'rubik';
+    font-weight:bold;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:left;
+    line-height:20px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-family:'rubik';
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+small, sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:329px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:308px;
+}
+
+blockquote img {
+    max-width:329px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:308px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-15px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:860px;
+    height:500px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    background:{color:container};
+    overflow:hidden;
+    border-radius:20px;
+}
+
+#colourfulblob {
+    width:860px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:{color:accent};
+    -webkit-clip-path: polygon(0 40%, 100% 70%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 40%, 100% 70%, 100% 100%, 0% 100%);
+    overflow:hidden;
+}
+
+#glitchy {
+    width:860px;
+    height:50px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background:{color:accent};
+}
+
+/* SIDEBAR */
+    
+#sidebar {
+    width:430px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+    #title {
+        width:420px;
+        height:70px;
+        line-height:70px;
+        font-family:rubik;
+        font-weight:600;
+        font-size:70px;
+        position:absolute;
+        top:255px;
+        right:10px;
+        transform:rotate(10deg);
+        text-transform:uppercase;
+        text-align-last:justify;
+        color:{color:accent};
+    }
+    
+    #mirrortitle {
+        width:420px;
+        height:70px;
+        line-height:70px;
+        font-family:rubik;
+        font-weight:600;
+        font-size:70px;
+        position:absolute;
+        bottom:130px;
+        right:18px;
+        text-transform:uppercase;
+        text-align-last:justify;
+        color:{color:container};
+        transform:scale(1, -1) rotate(-10deg);
+    }
+    
+    #sideicon {
+        width:300px;
+        height:300px;
+        background:#000;
+        position:absolute;
+        top:100px;
+        right:75px;
+        border-radius:50%;
+        overflow:hidden;
+    }
+    
+        #sideicon img {
+            width:300px;
+        }
+    
+    #sideiconopp {
+        width:300px;
+        height:300px;
+        background:#000;
+        position:absolute;
+        top:100px;
+        right:75px;
+        border-radius:50%;
+        -webkit-filter:invert(1);
+        filter:invert(1);
+        overflow:hidden;
+    }
+    
+        #sideiconopp img {
+            width:300px;
+        }
+        
+    #link1 {
+        width:40px;
+        height:40px;
+        line-height:40px;
+        text-align:center;
+        border-radius:80px;
+        background:{color:accent};
+        position:absolute;
+        top:90px;
+        left:50px;
+        color:{color:text};
+        font-size:16px;
+    }
+    
+    #link2 {
+        width:40px;
+        height:40px;
+        line-height:40px;
+        text-align:center;
+        border-radius:80px;
+        background:{color:post background};
+        position:absolute;
+        top:50px;
+        left:100px;
+        cursor:pointer;
+        color:{color:text};
+        font-size:16px;
+    }
+    
+/* TAB */
+ 
+@keyframes FadeIn{
+    from{opacity:0}
+    to{opacity:1}
+}
+    
+#navi {
+    width:860px;
+    height:500px;
+    background:{color:accent};
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    animation:.5s FadeIn;
+    border-radius:20px;
+}
+
+    .close {
+        width:20px;
+        height:20px;
+        line-height:20px;
+        text-align:center;
+        font-size:20px;
+        position:absolute;
+        top:10px;
+        right:10px;
+        cursor:pointer;
+        z-index:59025892687246528476;
+    }
+    
+    #glitchy1 {
+        width:860px;
+        height:50px;
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        background:{color:container};
+    }
+    
+    #blobby {
+        width:860px;
+        height:500px;
+        background:{color:container};
+        position:absolute;
+        top:0px;
+        left:0px;
+        overflow:hidden;
+        -webkit-clip-path: polygon(0 40%, 100% 70%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 40%, 100% 70%, 100% 100%, 0% 100%);
+    }
+    
+    #askbox {
+        width:350px;
+        height:210px;
+        padding:20px;
+        position:absolute;
+        top:20px;
+        left:20px;
+        background:{color:post background};
+        border-radius:10px;
+    }
+    
+    #linksbox {
+        width:430px;
+        height:190px;
+        position:absolute;
+        bottom:20px;
+        left:20px;
+        overflow:hidden;
+    }
+    
+        .link {
+            width:123px;
+            height:50px;
+            color:{color:text};
+            float:left;
+            overflow-x:visible;
+            margin:0px 20px 20px 0px;
+            font-size:16px;
+            text-transform:lowercase;
+            line-height:50px;
+            text-align:center;
+            font-weight:500;
+        }
+        
+            .dot {
+                background:{color:bold};
+                width:50px;
+                height:50px;
+                border-radius:50px;
+                float:left;
+                margin:0px -50px 0px 0px;
+                transition:.5s linear;
+            }
+            
+            .link:hover .dot {
+                width:123px;
+                transition:.5s linear;
+                margin-right:-123px;
+            }
+            
+    #muses {
+        width:390px;
+        height:460px;
+        position:absolute;
+        top:20px;
+        right:40px;
+        overflow-y:scroll;
+    }
+    
+        .muse {
+            width:80px;
+            height:80px;
+            float:left;
+            margin-left:40px;
+            margin-bottom:30px;
+            margin-top:10px;
+            border-radius:10px;
+            overflow:hidden;
+            cursor:pointer;
+        }
+        
+            .muse img {
+                width:80px;
+                height:auto;
+            }
+            
+/* POPUPS */
+    
+#sheet {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    background:{color:container};
+    opacity:.7;
+    display:none;
+    animation:fadeSheet .5s;
+}
+
+    @keyframes fadeSheet{
+        from{opacity:0}
+        to{opacity:.7}
+    }
+    
+.popup {
+    width:400px;
+    height:200px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    background:{color:post background};
+    border-radius:20px;
+    display:none;
+    animation:FadeIn.5s;
+    overflow:hidden;
+}
+
+    .popup img {
+        width:150px;
+        height:150px;
+        border-radius:150px;
+        overflow:hidden;
+        position:absolute;
+        top:25px;
+        left:25px;
+        -webkit-filter:invert(1);
+        filter:invert(1);
+    }
+
+    .popthing {
+        width:120px;
+        height:200px;
+        position:absolute;
+        top:0px;
+        left:0px;
+        background:{color:accent};
+        -webkit-clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
+        border-radius:20px 0px 0px 20px;
+    }
+    
+        .popthing img {
+            -webkit-filter:invert(0);
+            filter:invert(0);
+        }
+        
+    .popname {
+        width:195px;
+        height:60px;
+        line-height:30px;
+        font-size:30px;
+        text-transform:uppercase;
+        color:{color:accent};
+        position:absolute;
+        bottom:15px;
+        right:15px;
+        font-weight:700;
+    }
+    
+        .popname a {
+            color:{color:accent};
+        }
+    
+    .smallblurb{
+        width:175px;
+        height:80px;
+        position:absolute;
+        top:15px;
+        border:10px {color:container} solid;
+        background:{color:container};
+        right:15px;
+        overflow-y:scroll;
+        text-align:justify;
+        text-align-last:center;
+        border-radius:10px;
+    }
+    
+/* POSTS STYLING */
+
+.posts {
+    width:430px;
+    height:500px;
+    overflow-y:scroll;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.postholder {
+    width:390px;
+    height:auto;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:0px;
+    overflow:hidden;
+    background:{color:post background};
+    border-radius:10px;
+}
+
+.post {
+    background:{color:post background};
+    width:350px;
+    display:inline-block;
+    height:auto;
+    padding:20px;
+    font-size:12px;
+    text-align:justify;
+}
+
+.postholder:last-of-type {
+    margin-bottom:20px;
+}
+
+.post img {
+    max-width:350px;
+    height:auto;
+    border-radius:5px;
+}
+
+.photoset {
+    width:350px;
+    border-radius:5px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:330px;
+    text-align:left;
+    padding:10px;
+    background:{color:container};
+    color:{color:accent};
+    border-radius:5px 5px 0px 0px;
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:328px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:container} solid;
+    border-radius:0px 0px 5px 5px;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:330px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:250px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:350px;
+    text-align:justify;
+    padding:5px 20px 15px 20px;
+    font-size:11px;
+}
+
+.tags .lnr-tag {
+    font-size:20px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:390px;
+    height:30px;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+.postinfo span {
+    margin-right:5px;
+}
+
+.postdate {
+    float:left;
+    padding-right:10px;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-left:20px;
+    margin-top:10px;
+    border-right:1px {color:container} solid;
+}
+
+.postnotestat {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:10px;
+    border-right:1px {color:container} solid;
+}
+
+.reblogpost {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+/* PAGINATION */
+
+#pagination {
+    width:430px;
+    height:80px;
+    line-height:80px;
+    font-size:14px;
+    text-align:center;
+    float:left;
+    word-spacing:10px;
+    color:{color:bold};
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:150px;
+    height:80px;
+    padding:3px;
+    border-radius:5px;
+    font-size:13px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    line-height:60px;
+    text-align:center;
+    color:{color:accent};
+}
+
+.ananas strong {
+    font-family:brilliant;
+    font-size:30px;
+}
+
+/* FUK U TUMBLR */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    transform:scale(0.65);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.65);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.65);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.65);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.65);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+
+</style>
+</head>
+<body>
+
+<script>
+    
+function openTab(tabname){
+    var x = document.getElementsByClassName('tab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    
+    document.getElementById(tabname).style.display = 'block';
+}
+
+function openPopup(popupname){
+    document.getElementById(popupname).style.display = 'block';
+    document.getElementById('sheet').style.display = 'block';
+}
+
+function closePopup(){
+    var x = document.getElementsByClassName('popup');
+    for (i = 0; i < x.length; i++){
+        x[i].style.display = 'none';
+    }
+    document.getElementById('sheet').style.display = 'none';
+}
+    
+</script>
+
+<div id="container">
+    
+<div id="sideicon"><img src="{image:sidebar image}"/></div>
+    
+<div id="glitchy"></div>
+    
+<div id="colourfulblob"><div id="sideiconopp"><img src="{image:sidebar image}"/></div></div>
+    
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {DayOfMonth} {Month} {Year}{/block:Date}</a></div>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {TimeAgo} {/block:Date}</a></div>
+{/block:IfTimeAgoFormat}
+<div class="postnotestat"><a href="{Permalink}"><span class="lnr lnr-tag"></span> {NoteCountWithLabel}</a></div>
+<div class="reblogpost"><a href="{ReblogURL}"><span class="lnr lnr-sync"></span> reblog</a></div>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags"><span class="lnr lnr-tag"></span>{block:Tags} <div class="tag"><a href="{TagURL}">{TAG}</a>,</div> {/block:Tags}</div> {/block:HasTags}
+
+</div>
+
+
+
+{/block:Posts}
+    
+{block:Pagination}
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">BACK</a>{/block:PreviousPage} / {Block:NextPage}<a href="{NextPage}">NEXT</a>{/Block:NextPage}
+</div>
+{/block:Pagination}
+    
+</div>
+
+<div id="sidebar">
+    
+    <div id="title">{text:sidebar title}</div>
+    <div id="mirrortitle">{text:sidebar title}</div>
+    
+    <a href="/" title="index"><div id="link1"><span class="lnr lnr-home"></span></div></a>
+    <a onclick="openTab('navi')" title="navigate"><div id="link2"><span class="lnr lnr-earth"></span></div></a>
+    
+</div>
+
+<div id="navi" class="tab">
+
+    <div id="glitchy1"></div>
+    
+    <div id="blobby"></div>
+    
+    <div class="close" title="close this tab" onclick="this.parentElement.style.display = 'none'"><span class="lnr lnr-cross"></span></div>
+    
+    <div id="askbox"><iframe frameborder="0" scrolling="no" width="350" height="210" src="https://www.tumblr.com/ask_form/{text:your url}.tumblr.com" style="background-color:transparent; overflow:hidden;border-radius:5px" id="ask_form"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('ask_form').allowTransparency=true;</script><![endif]--></div>
+    
+    <div id="linksbox">
+        
+        <a href="{text:link 1 url}"><div class="link"><div class="dot"></div>{text:link 1 title}</div></a>
+        <a href="{text:link 2 url}"><div class="link"><div class="dot"></div>{text:link 2 title}</div></a>
+        <a href="{text:link 3 url}"><div class="link"><div class="dot"></div>{text:link 3 title}</div></a>
+        
+        <a href="{text:link 4 url}"><div class="link"><div class="dot"></div>{text:link 4 title}</div></a>
+        <a href="{text:link 5 url}"><div class="link"><div class="dot"></div>{text:link 5 title}</div></a>
+        <a href="{text:link 6 url}"><div class="link"><div class="dot"></div>{text:link 6 title}</div></a>
+        
+        <a href="{text:link 7 url}"><div class="link"><div class="dot"></div>{text:link 7 title}</div></a>
+        <a href="{text:link 8 url}"><div class="link"><div class="dot"></div>{text:link 8 title}</div></a>
+        <a href="{text:link 9 url}"><div class="link"><div class="dot"></div>{text:link 9 title}</div></a>
+        
+    </div>
+    
+    <div id="muses">
+    
+        <div class="muse" onclick="openPopup('muse1')"><img src="{image:muse 1}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse2')"><img src="{image:muse 2}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse3')"><img src="{image:muse 3}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse4')"><img src="{image:muse 4}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse5')"><img src="{image:muse 5}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse6')"><img src="{image:muse 6}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse7')"><img src="{image:muse 7}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse8')"><img src="{image:muse 8}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse9')"><img src="{image:muse 9}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse10')"><img src="{image:muse 10}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse11')"><img src="{image:muse 11}"/></div>
+        
+        <div class="muse" onclick="openPopup('muse12')"><img src="{image:muse 12}"/></div>
+        
+    </div>
+    
+</div>
+
+</div>
+
+<!-- POPUPS -->
+
+<div id="sheet" onclick="closePopup()"></div>
+
+<!-- POPUP ONE -->
+
+<div class="popup" id="muse1">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP TWO -->
+
+<div class="popup" id="muse2">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP THREE -->
+
+<div class="popup" id="muse3">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP FOUR -->
+
+<div class="popup" id="muse4">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP FIVE -->
+
+<div class="popup" id="muse5">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP SIX -->
+
+<div class="popup" id="muse6">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP SEVEN -->
+
+<div class="popup" id="muse7">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP EIGHT -->
+
+<div class="popup" id="muse8">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP NINE -->
+
+<div class="popup" id="muse9">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP TEN -->
+
+<div class="popup" id="muse10">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP ELEVEN -->
+
+<div class="popup" id="muse11">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- POPUP TWELVE -->
+
+<div class="popup" id="muse12">
+    
+        <img src="https://via.placeholder.com/150x150"/>
+    <div class="popthing">
+        <img src="https://via.placeholder.com/150x150"/>
+    </div>
+    
+    <div class="popname"><a href="/url">character name</a></div>
+    
+    <div class="smallblurb">
+        even if i’m flying above the clouds my eyes are fixed on you as if our hearts connected, we’ve grown quiet stars are spinning right now
+    </div>
+        
+</div>
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+    <div class="ananas"><a href="https://sprfluous.tumblr.com"><strong>sprfluous</strong></a></div>
+
+</body>
+</html>
