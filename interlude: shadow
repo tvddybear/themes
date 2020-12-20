@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+INTERLUDE : SHADOW : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code or it is a code intended to be publicly available.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:background" content=""/>
+
+<meta name="image:pic 1" content="https://via.placeholder.com/230x180"/>
+
+<meta name="image:tab pic" content="https://via.placeholder.com/200x120"/>
+
+<meta name="image:insta icon" content="https://via.placeholder.com/80x80"/>
+
+<meta name="image:insta post 1" content="https://via.placeholder.com/75x75"/>
+<meta name="image:insta post 2" content="https://via.placeholder.com/75x75"/>
+<meta name="image:insta post 3" content="https://via.placeholder.com/75x75"/>
+<meta name="image:insta post 4" content="https://via.placeholder.com/75x75"/>
+<meta name="image:insta post 5" content="https://via.placeholder.com/75x75"/>
+<meta name="image:insta post 6" content="https://via.placeholder.com/75x75"/>
+
+<meta name="image:twt header" content="https://via.placeholder.com/265x60"/>
+
+<meta name="image:twt icon" content="https://via.placeholder.com/50x50"/>
+
+<meta name="image:book cover 1" content="https://via.placeholder.com/50x80"/>
+<meta name="image:book cover 2" content="https://via.placeholder.com/50x80"/>
+<meta name="image:book cover 3" content="https://via.placeholder.com/50x80"/>
+<meta name="image:book cover 4" content="https://via.placeholder.com/50x80"/>
+<meta name="image:book cover 5" content="https://via.placeholder.com/50x80"/>
+<meta name="image:book cover 6" content="https://via.placeholder.com/50x80"/>
+
+<meta name="image:movie poster 1" content="https://via.placeholder.com/50x80"/>
+<meta name="image:movie poster 2" content="https://via.placeholder.com/50x80"/>
+<meta name="image:movie poster 3" content="https://via.placeholder.com/50x80"/>
+<meta name="image:movie poster 4" content="https://via.placeholder.com/50x80"/>
+<meta name="image:movie poster 5" content="https://via.placeholder.com/50x80"/>
+<meta name="image:movie poster 6" content="https://via.placeholder.com/50x80"/>
+
+<meta name="image:tv show 1" content="https://via.placeholder.com/50x80"/>
+<meta name="image:tv show 2" content="https://via.placeholder.com/50x80"/>
+<meta name="image:tv show 3" content="https://via.placeholder.com/50x80"/>
+<meta name="image:tv show 4" content="https://via.placeholder.com/50x80"/>
+<meta name="image:tv show 5" content="https://via.placeholder.com/50x80"/>
+<meta name="image:tv show 6" content="https://via.placeholder.com/50x80"/>
+
+<meta name="color:background" content="#fff"/>
+<meta name="color:container" content="#f8f8f8"/>
+<meta name="color:borders" content="#eee"/>
+<meta name="color:posts" content="#fff"/>
+<meta name="color:post shadow" content="#eee"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#eee"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#eee"/>
+<meta name="color:tags hover" content="#eee"/>
+<meta name="color:italic" content="#eee"/>
+<meta name="color:bold" content="#eee"/>
+<meta name="color:accent" content="#eee"/>
+<meta name="color:notes background" content="#fff"/>
+
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+
+<meta name="text:ur title" content="shadow"/>
+<meta name="text:ur description" content="i wondered everyday how far i’d go i came to my senses and i find myself here yeah, hmm, shadow at my feet look down, it’s gotten even bigger i run but the shadow follows, as dark as the light's intense i’m afraid, flying high is terrifying no one told me how lonely it is up here i can leap in the air but also plunge, now i know running away could be an option too, pause people say, there’s splendor in that bright light but my growing shadow swallows me and becomes a monster"/>
+
+<meta name="text:nav title" content="i wanna be a rap star"/>
+
+<meta name="text:link 1 url" content="/"/>
+<meta name="text:link 1 name" content="link name"/>
+
+<meta name="text:link 2 url" content="/"/>
+<meta name="text:link 2 name" content="link name"/>
+
+<meta name="text:link 3 url" content="/"/>
+<meta name="text:link 3 name" content="link name"/>
+
+<meta name="text:link 4 url" content="/"/>
+<meta name="text:link 4 name" content="link name"/>
+
+<meta name="text:link 5 url" content="/"/>
+<meta name="text:link 5 name" content="link name"/>
+
+<meta name="text:link 6 url" content="/"/>
+<meta name="text:link 6 name" content="link name"/>
+
+<meta name="text:notes title" content="to-do list"/>
+
+<meta name="text:notes" content="u can use list formatting here if u want ig"/>
+
+<meta name="text:insta name" content="username"/>
+<meta name="text:insta followers" content="##"/>
+<meta name="text:insta following" content="##"/>
+<meta name="text:insta posts" content="##"/>
+
+<meta name="text:insta bio" content="you can write whatever you want here as long as it only gets to two lines"/>
+
+<meta name="text:twt username" content="username"/>
+<meta name="text:twt handle" content="handle"/>
+
+<meta name="text:tweet 1 time ago" content="6m"/>
+<meta name="text:tweet 1 contents" content="lorem ipsum dolor sit amet consectetur edipiscing elit... etc etc etc etc"/>
+<meta name="text:tweet 1 replies" content="##"/>
+<meta name="text:tweet 1 retweets" content="##"/>
+<meta name="text:tweet 1 likes" content="##"/>
+
+<meta name="text:tweet 2 time ago" content="6m"/>
+<meta name="text:tweet 2 contents" content="support content creators or die by my sword"/>
+<meta name="text:tweet 2 replies" content="##"/>
+<meta name="text:tweet 2 retweets" content="##"/>
+<meta name="text:tweet 2 likes" content="##"/>
+
+<meta name="text:tweet 3 time ago" content="6m"/>
+<meta name="text:tweet 3 contents" content="be gay punch nazis"/>
+<meta name="text:tweet 3 replies" content="##"/>
+<meta name="text:tweet 3 retweets" content="##"/>
+<meta name="text:tweet 3 likes" content="##"/>
+
+<meta name="text:tweet 4 time ago" content="6m"/>
+<meta name="text:tweet 4 contents" content="lorem ipsum dolor sit amet consectetur edipiscing elit. etiam bibendum, mauris eu interdum ornare, nibh es faucibus mauris, in tempus turpis erat et tortor."/>
+<meta name="text:tweet 4 replies" content="##"/>
+<meta name="text:tweet 4 retweets" content="##"/>
+<meta name="text:tweet 4 likes" content="##"/>
+
+<meta name="text:book 1 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:book 2 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:book 3 rating" content="⭑⭑⭒⭒⭒"/>
+<meta name="text:book 4 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:book 5 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:book 6 rating" content="⭑⭑⭑⭑⭑"/>
+
+<meta name="text:movie 1 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:movie 2 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:movie 3 rating" content="⭑⭑⭒⭒⭒"/>
+<meta name="text:movie 4 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:movie 5 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:movie 6 rating" content="⭑⭑⭑⭑⭑"/>
+
+<meta name="text:show 1 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:show 2 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:show 3 rating" content="⭑⭑⭒⭒⭒"/>
+<meta name="text:show 4 rating" content="⭑⭑⭑⭑⭒"/>
+<meta name="text:show 5 rating" content="⭑⭑⭑⭒⭒"/>
+<meta name="text:show 6 rating" content="⭑⭑⭑⭑⭑"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "creamy love"; src: url('https://dl.dropboxusercontent.com/s/6lfk153zah8jlhy/Creamy%20Love.ttf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:{color:posts};
+    border-radius:3px;
+    
+    font-size:11px;
+    padding:3px 8px 3px 8px;
+    color:{color:text};
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:'muli';
+    font-size:12px;
+    background:{color:background};
+    background-image:url('{image:background}');
+    background-size:cover;
+    color:{color:text};
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:80px;
+    line-height:80px;
+    text-transform:lowercase;
+    text-align:center;
+    font-weight:normal;
+    font-family:'creamy love';
+    margin:10px 0px 0px 0px;
+}
+
+h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-weight:600;
+}
+
+small {
+    font-size:12px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:279px;
+    margin-top:10px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:258px;
+}
+
+blockquote img {
+    max-width:279px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:258px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-25px;
+}
+
+ol {
+    margin-left:-25px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:700px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    overflow:visible;
+    background:{color:container};
+    -webkit-filter:drop-shadow(0px 0px 3px {color:container});
+    filter:drop-shadow(0px 0px 3px {color:container});
+}
+
+/* BLOBS */
+    
+.blob {
+    fill:{color:accent};
+    position:absolute;
+    right:-80px;
+    top:25px;
+}
+
+#circle {
+    background:{color:accent};
+    position:absolute;
+    left:385px;
+    top:-10px;
+    width:80px;
+    height:80px;
+    border-radius:50px;
+}
+
+/* IMAGES */
+    
+#img1 {
+    width:230px;
+    height:180px;
+    position:absolute;
+    top:40px;
+    right:40px;
+    background:#fff;
+    -webkit-filter:drop-shadow(0px 0px 3px rgba(0,0,0,.3));
+    filter:drop-shadow(0px 0px 3px rgba(0,0,0,.3));
+    border-radius:5px;
+    overflow:hidden;
+}
+
+#img1 img {
+    width:230px;
+    height:auto;
+}
+
+/* TEXT */
+    
+#title {
+    width:230px;
+    height:30px;
+    color:{color:text};
+    position:absolute;
+    top:204px;
+    right:40px;
+    text-align:center;
+    font-size:100px;
+    font-family:'creamy love';
+}
+
+#desc {
+    width:230px;
+    height:125px;
+    position:absolute;
+    bottom:65px;
+    right:40px;
+    overflow-y:scroll;
+    text-align:justify;
+}
+
+#links {
+    width:230px;
+    height:12px;
+    line-height:12px;
+    position:absolute;
+    bottom:40px;
+    right:40px;
+    text-align-last:justify;
+    font-size:12px;
+    font-family:'space mono';
+    text-transform:lowercase;
+}
+
+/* TABS */
+    
+.tab {
+    width:360px;
+    height:530px;
+    position:absolute;
+    bottom:0px;
+    left:30px;
+    background:{color:posts};
+    display:none;
+    border-radius:5px 5px 0px 0px;
+    animation:FadeIn .5s;
+    overflow:hidden;
+}
+
+@keyframes FadeIn{
+    from{opacity:0}
+    to{opacity:1}
+}
+
+.close {
+    width:10px;
+    height:10px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:{color:accent};
+    border-radius:50%;
+    cursor:pointer;
+}
+
+#stripe {
+    width:3px;
+    background:{color:accent};
+    height:530px;
+    position:absolute;
+    top:0px;
+    left:50px;
+}
+
+#tabblob {
+    fill:{color:bold};
+    position:absolute;
+    bottom:-150px;
+    left:-100px;
+    transform:rotate(240deg);
+}
+
+#tabblob2 {
+    fill:{color:bold};
+    position:absolute;
+    top:-100px;
+    right:-50px;
+    transform:rotate(30deg);
+}
+
+#tabimg {
+    width:200px;
+    height:120px;
+    position:absolute;
+    top:30px;
+    left:30px;
+    border-radius:5px;
+    overflow:hidden;
+    -webkit-filter:drop-shadow(0px 0px 3px {color:container});
+    filter:drop-shadow(0px 0px 3px {color:container});
+}
+
+    #tabimg img {
+        width:200px;
+        height:auto;
+    }
+    
+#imgshadow {
+    width:155px;
+    height:140px;
+    position:absolute;
+    top:20px;
+    left:65px;
+    background:{color:accent};
+    border-radius:5px;
+}
+
+#tlinks {
+    width:90px;
+    height:120px;
+    position:absolute;
+    top:30px;
+    overflow:hidden;
+    right:25px;
+}
+
+    .tlink {
+        width:40px;
+        height:57.5px;
+        float:left;
+        margin-right:5px;
+        margin-bottom:5px;
+        border-radius:5px;
+        background:{color:italic};
+        color:{color:posts};
+        font-size:18px;
+        font-family:'space mono';
+        text-align:center;
+        line-height:57.5px;
+        text-transform:lowercase;
+        cursor:pointer;
+    }
+    
+.minitab {
+    width:300px;
+    height:320px;
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    display:none;
+    animation:FadeIn .5s;
+}
+
+/* MINI NAV TAB */
+  
+#base {
+    animation:none;
+}
+   
+#navtitle {
+    width:360px;
+    height:380px;
+    position:absolute;
+    top:-30px;
+    left:-15px;
+    transform:rotate(-5deg);
+    text-align:center;
+    font-size:90px;
+    line-height:90px;
+    font-family:'creamy love';
+}
+
+#nlinks {
+    width:305px;
+    height:150px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    overflow-y:hidden;
+}
+
+.nlink {
+    width:147.5px;
+    height:46.6px;
+    background:{color:accent};
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+    border-radius:5px;
+    color:{color:posts};
+    font-size:12px;
+    line-height:46.6px;
+    font-family:'space mono';
+    text-align:center;
+    text-transform:lowercase;
+    font-weight:600;
+    transition:.5s linear;
+}
+
+.nlink:hover {
+    background:{color:italic};
+    transition:.5s linear;
+}
+
+/* NOTES TAB */
+
+#notes {
+    border-radius:5px;
+    background:{color:notes background};
+    color:{color:posts};
+}
+
+    #notes .close {
+        background:{color:italic};
+    }
+    
+    #notestitle {
+        width:280px;
+        height:40px;
+        font-size:40px;
+        position:absolute;
+        top:20px;
+        left:10px;
+        font-family:'creamy love';
+        text-align:center;
+        color:{color:accent};
+        text-shadow:0px 0px 1px {color:posts};
+    }
+    
+    #notescontent {
+        width:240px;
+        height:210px;
+        position:absolute;
+        bottom:30px;
+        left:30px;
+        font-size:12px;
+        text-transform:italic;
+        line-height:150%;
+    }
+    
+/* INSTA TAB */
+    
+#insta .close {
+    top:0px;
+    right:0px;
+}
+
+#instaicon {
+    width:80px;
+    height:80px;
+    border:5px {color:text} solid;
+    border-radius:160px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+}
+
+    #instaicon img {
+        width:80px;
+        height:auto;
+    }
+    
+#instaname {
+    width:190px;
+    height:30px;
+    position:absolute;
+    top:15px;
+    line-height:30px;
+    right:0px;
+    text-align:left;
+    font-family:'space mono';
+    font-size:18px;
+}
+
+#instastats {
+    width:190px;
+    height:30px;
+    position:absolute;
+    top:45px;
+    right:0px;
+    text-align:left;
+}
+
+#instabio {
+    width:255px;
+    height:30px;
+    position:absolute;
+    top:105px;
+    right:0px;
+    line-height:15px;
+    text-align:justify;
+}
+
+#instaposts {
+    width:270px;
+    height:165px;
+    position:absolute;
+    overflow:visible;
+    bottom:0px;
+    right:-15px;
+}
+
+    .instapost {
+        width:75px;
+        height:75px;
+        border-radius:3px;
+        float:left;
+        margin-right:15px;
+        margin-bottom:15px;
+        overflow:hidden;
+        -webkit-filter:drop-shadow(0px 0px 3px rgba(0,0,0,.3));
+        filter:drop-shadow(0px 0px 3px rgba(0,0,0,.3));
+    }
+    
+        .instapost img {
+            width:75px;
+            height:auto;
+        }
+        
+/* TWITTER */
+
+#twitter .close {
+    background:{color:bold};
+}
+
+#twtheader {
+    width:265px;
+    height:60px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+    #twtheader img {
+        width:265px;
+        height:auto;
+    }
+    
+#twticon {
+    width:50px;
+    height:50px;
+    border:3px {color:posts} solid;
+    border-radius:50%;
+    position:absolute;
+    top:25px;
+    left:50px;
+    overflow:hidden;
+}
+
+    #twticon img {
+        width:50px;
+        height:auto;
+    }
+    
+#twtname {
+    width:150px;
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+    font-weight:700;
+    font-family:'space mono';
+    position:absolute;
+    top:60px;
+    left:115px;
+}
+
+#twthandle {
+    width:150px;
+    height:20px;
+    line-height:20px;
+    font-size:10px;
+    font-weight:normal;
+    text-transform:lowercase;
+    font-family:'muli';
+    opacity:.6;
+}
+
+#tweets {
+    width:265px;
+    height:225px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    overflow-y:scroll;
+    border-radius:5px;
+}
+
+    .tweet {
+        padding:10px 10px 0px 10px;
+        width:245px;
+        height:auto;
+        float:left;
+        margin-bottom:10px;
+        background:{color:container};
+        border-radius:5px;
+    }
+    
+    .tweet:last-of-type {
+        margin-bottom:0px;
+    }
+    
+        .tweet img {
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            margin-right:10px;
+            margin-bottom:10px;
+            float:left;
+        }
+        
+        .twtname {
+            font-family:'space mono';
+            font-size:13px;
+            color:{color:bold};
+            line-height:13px;
+        }
+        
+        .twthandle {
+            font-size:10px;
+            opacity:.6;
+            line-height:10px;
+        }
+        
+        .twtcontents {
+            width:205px;
+            height:auto;
+            float:left;
+            margin-left:40px;
+            margin-top:-20px;
+            font-size:11px;
+        }
+
+/* PURCHASED TAB */
+
+#purchased .close {
+    top:0px;
+    right:0px;
+}
+
+#purchasebox {
+    width:250px;
+    height:290px;
+    padding:15px;
+    background:{color:container};
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius:5px;
+    overflow:visible;
+}
+
+#minipbox {
+    width:250px;
+    height:290px;
+    padding:15px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow-y:scroll;
+}
+
+#ptitle {
+    width:250px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:50px;
+    font-family:'creamy love';
+    position:absolute;
+    top:0px;
+    left:15px;
+}
+
+#psubtitle {
+    width:250px;
+    height:20px;
+    line-height:20px;
+    font-family:'space mono';
+    font-size:16px;
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+
+#pbar {
+    width:250px;
+    height:80px;
+    position:absolute;
+    top:55px;
+    left:15px;
+    overflow-x:scroll;
+}
+
+    #pbarinner {
+        width:390px;
+        height:80px;
+        float:left;
+    }
+
+    #pbar img {
+        float:left;
+        margin-right:15px;
+        width:50px;
+        height:80px;
+        width:auto;
+        border-radius:3px;
+    }
+
+/* POSTS STYLING */
+
+.posts {
+    width:420px;
+    height:530px;
+    overflow-y:scroll;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+}
+
+.postholder:first-of-type {
+    margin-top:0px;
+}
+
+.postholder {
+    width:360px;
+    height:auto;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:0px;
+    overflow:hidden;
+    background:{color:posts};
+    border-radius:5px;
+    -webkit-filter:drop-shadow(0px 0px 3px {color:post shadow});
+    filter:drop-shadow(0px 0px 3px {color:post shadow});
+}
+
+.post {
+    background:{color:posts};
+    width:300px;
+    display:inline-block;
+    height:auto;
+    padding:10px 30px 20px 30px;
+    font-size:12px;
+    text-align:justify;
+}
+
+.postholder:last-of-type {
+    margin-bottom:30px;
+}
+
+.post img {
+    max-width:300px;
+    height:auto;
+    border-radius:5px;
+}
+
+.photoset {
+    width:300px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:280px;
+    text-align:left;
+    padding:10px;
+    background:{color:borders};
+    color:{color:accent};
+    border-radius:10px 10px 0px 0px;
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:278px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:borders} solid;
+    border-radius:0px 0px 10px 10px;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:280px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:200px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:300px;
+    text-align:justify;
+    text-align-last:center;
+    padding:10px 30px 10px 30px;
+    font-size:11px;
+    margin-left:30px;
+}
+
+.tags:last-of-type {
+    padding-bottom:20px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:360px;
+    height:40px;
+    padding-bottom:0px;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+.postinfo span {
+    margin-right:5px;
+}
+
+.postdate {
+    float:left;
+    padding-right:10px;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-left:30px;
+    margin-top:15px;
+    border-right:1px {color:borders} solid;
+}
+
+.postnotestat {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:15px;
+    margin-left:10px;
+    padding-right:10px;
+    border-right:1px {color:borders} solid;
+}
+
+.reblogpost {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+/* PAGINATION */
+
+#pagibox {
+    width:360px;
+    height:30px;
+    padding:0px;
+    line-height:30px;
+    font-size:14px;
+    text-align:center;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    word-spacing:20px;
+    color:{color:text};
+    border-radius:10px;
+}
+
+#pagibox a {
+    color:{color:text};
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:20px;
+    height:20px;
+    padding:0px;
+    border-radius:10px;
+    font-size:18px;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    line-height:20px;
+    text-align:center;
+    color:{color:accent};
+}
+
+.ananas a {
+    color:{color:accent};
+}
+
+/* TUMBLR CONTROLS */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    transform:scale(0.5);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.5);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.5);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.5);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.5);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+
+</style>
+</head>
+<body>
+
+<script>
+    
+function openTab(tabname){
+    var x = document.getElementsByClassName('tab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    document.getElementById(tabname).style.display = 'block';
+}
+
+function openMini(tabname){
+    var x = document.getElementsByClassName('minitab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    document.getElementById(tabname).style.display = 'block';
+}
+    
+</script>
+
+<div id="container">
+ 
+<!-- BLOB -->
+ 
+<svg class="blob" xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 1000 1000">
+    <path class="cls-1" d="M607.645,111.34c54.664-11.5,121.019-8.8,172.737,4.351,52.422,13.1,90.206,36.666,103.947,65.722,14.635,29.116,5.229,63.728-16.128,100.331-20.271,36.776-52.494,75.543-58.455,116.945-13.436,41.869,3.337,82.357,19.633,126.725,16.681,44.011,32.886,91.9,27.144,140.328-4.9,48.207-31.745,96.952-81.814,137.645C725.937,844,653.938,876.559,588.587,890.551c-71.414,10.737-131.952,7.652-190.646-26.693-58.074-32.8-114.3-96.859-162.753-172.348-48.212-75.036-88.649-161.522-109.772-228.955-21.276-68.087-23.239-117.121,1.953-132.332,21.971-19.961,64.776-15.141,106.08-20.9,42.152-4.272,82.8-19.122,120.032-43.908,75.534-50.544,136.7-133.762,254.164-154.077"/>
+</svg> 
+ 
+<div id="circle"></div>
+
+<!-- IMAGES -->
+ 
+<div id="img1">
+    
+    <img src="{image:pic 1}"/>
+    
+</div>
+
+<div id="title">{text:ur title}</div>
+
+<div id="desc">
+    
+    {text:ur description}
+    
+</div>
+
+<div id="links">
+    
+    <a href="/">HOME</a> <a href="/ask">MESSAGE</a> <a onclick="openTab('nav')">NAVIGATE</a>
+    
+</div>
+ 
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {DayOfMonth} {ShortMonth} {Year}{/block:Date}</a></div>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {TimeAgo} {/block:Date}</a></div>
+{/block:IfTimeAgoFormat}
+<div class="postnotestat"><a href="{Permalink}"><span class="lnr lnr-tag"></span> {NoteCountWithLabel}</a></div>
+<div class="reblogpost"><a href="{ReblogURL}"><span class="lnr lnr-sync"></span> reblog</a></div>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img style="margin-top:10px;" src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+</div>
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags">{block:Tags} <div class="tag"><a href="{TagURL}"># {TAG}</a></div> {/block:Tags}</div> {/block:HasTags}
+
+{block:PostNotes}<div class="postnotes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+{block:Pagination}
+    <div id="pagibox">{block:PreviousPage}<a href="{PreviousPage}" title="back"><span class="fas fa-arrow-left"></span></a>{/block:PreviousPage} {block:NextPage}<a href="{NextPage}" title="forth"><span class="fas fa-arrow-right"></span></a>{/block:NextPage}
+        </div>
+{/block:Pagination}
+    
+</div>
+
+<!-- END POSTS -->
+
+<!-- TABS -->
+
+<div id="nav" class="tab">
+    
+    <svg id="tabblob2" xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 400 400">
+        <path class="cls-1" d="M274.293,96.9c20.8-6.164,49.554-9.214,74.524-1.556,25.2,7.156,41.448,28.278,39.917,54.78-0.718,26.458-15.519,53.987-28.843,72.869-13.387,19.585-26.02,32.481-29.153,48.956-5.619,15.086-.641,32.96,1.537,48.4,2.509,15.7,1.448,26.866-9.159,35.254-10.149,7.964-28.911,18.867-47.7,26.249-9.388,3.317-18.8,4.4-28.021.893-9.228-3.278-18.264-11.138-27.047-20.474-18.6-21.156-35.743-41.395-57.71-42.373-21.508-2.473-50.823,12.435-79.068,1.825C69.638,316.8,56.43,305.089,45.6,288.4c-10.873-16.481-19.367-37.942-24.859-57.563-11.088-40.712-10.154-69.817,7.7-74.163,16.034-7.7,43.2-.119,66.944,1.593,24.332,2.612,46.586.262,66.377-6.681,40.682-14.6,68.623-43.051,112.529-54.684"/>
+    </svg>
+    
+    <div class="close" onclick="this.parentElement.style.display = 'none';"></div>
+    
+    <div id="stripe"></div>
+    
+    <svg id="tabblob" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 400 400">
+        <path class="cls-1" d="M274.293,96.9c20.8-6.164,49.554-9.214,74.524-1.556,25.2,7.156,41.448,28.278,39.917,54.78-0.718,26.458-15.519,53.987-28.843,72.869-13.387,19.585-26.02,32.481-29.153,48.956-5.619,15.086-.641,32.96,1.537,48.4,2.509,15.7,1.448,26.866-9.159,35.254-10.149,7.964-28.911,18.867-47.7,26.249-9.388,3.317-18.8,4.4-28.021.893-9.228-3.278-18.264-11.138-27.047-20.474-18.6-21.156-35.743-41.395-57.71-42.373-21.508-2.473-50.823,12.435-79.068,1.825C69.638,316.8,56.43,305.089,45.6,288.4c-10.873-16.481-19.367-37.942-24.859-57.563-11.088-40.712-10.154-69.817,7.7-74.163,16.034-7.7,43.2-.119,66.944,1.593,24.332,2.612,46.586.262,66.377-6.681,40.682-14.6,68.623-43.051,112.529-54.684"/>
+    </svg>
+    
+    <div id="imgshadow"></div>
+    <div id="tabimg"><img src="{image:tab pic}"></div>
+    
+    <div id="tlinks">
+        
+        <a onclick="openMini('notes')" title="notes"><div class="tlink"><span class="lnr lnr-coffee-cup"></span></div></a>
+        <a onclick="openMini('insta')" title="instagram"><div class="tlink"><span class="lnr lnr-magic-wand"></span></div></a>
+        <a onclick="openMini('twitter')" title="twitter"><div class="tlink"><span class="lnr lnr-lighter"></span></div></a>
+        <a onclick="openMini('purchased')" title="purchased"><div class="tlink"><span class="lnr lnr-store"></span></div></a>
+        
+    </div>
+    
+    <div id="base" class="minitab" style="display:block;">
+        
+        <div id="navtitle">{text:nav title}</div>
+        
+        <div id="nlinks">
+        
+        <a href="{text:link 1 url}"><div class="nlink">{text:link 1 name}</div></a>
+        
+        <a href="{text:link 2 url}"><div class="nlink">{text:link 2 name}</div></a>
+        
+        <a href="{text:link 3 url}"><div class="nlink">{text:link 3 name}</div></a>
+        
+        <a href="{text:link 4 url}"><div class="nlink">{text:link 4 name}</div></a>
+        
+        <a href="{text:link 5 url}"><div class="nlink">{text:link 5 name}</div></a>
+        
+        <a href="{text:link 6 url}"><div class="nlink">{text:link 6 name}</div></a>
+        
+        </div>
+        
+    </div>
+    
+    <div id="notes" class="minitab">
+        
+        <div class="close" onclick="openMini('base')"></div>
+        
+        <div id="notestitle">{text:notes title}</div>
+        
+        <div id="notescontent">
+            
+            {text:notes}
+            
+        </div>
+        
+    </div>
+    
+    <div id="insta" class="minitab">
+        
+        <div class="close" onclick="openMini('base')"></div>
+        
+        <div id="instaicon"><img src="{image:insta icon}"/></div>
+        
+        <div id="instaname">{text:insta name}</div>
+        <div id="instastats">{text:insta followers} followers &nbsp; {text:insta following} following &nbsp; {text:insta posts} posts</div>
+        
+        <div id="instabio">{text:insta bio}</div>
+        
+        <div id="instaposts">
+            
+            <div class="instapost" title="{text:insta post 1 caption}"><img src="{image:insta post 1}"/></div>
+            <div class="instapost" title="{text:insta post 2 caption}"><img src="{image:insta post 2}"/></div>
+            <div class="instapost" title="{text:insta post 3 caption}"><img src="{image:insta post 3}"/></div>
+            <div class="instapost" title="{text:insta post 4 caption}"><img src="{image:insta post 4}"/></div>
+            <div class="instapost" title="{text:insta post 5 caption}"><img src="{image:insta post 5}"/></div>
+            <div class="instapost" title="{text:insta post 6 caption}"><img src="{image:insta post 6}"/></div>
+            
+        </div>
+        
+    </div>
+    
+    <div id="twitter" class="minitab">
+        
+        <div id="twtheader">
+            <img src="{image:twt header}"/>
+        </div>
+        
+        <div class="close" onclick="openMini('base')"></div>
+        
+        <div id="twticon"><img src="{image:twt icon}"/></div>
+        <div id="twtname">{text:twt username} <span id="twthandle">@{text:twt handle}</span></div>
+        
+        <div id="tweets">
+            
+            <div class="tweet">
+                
+                <img src="{image:twt icon}"/>
+                <span class="twtname">{text:twt username}</span>
+                <span class="twthandle">@{text:twt handle} · {text:tweet 1 time ago}</span>
+                
+                <div class="twtcontents">{text:tweet 1 contents}
+                    
+                    <p><span class="lnr lnr-bubble"></span> {text:tweet 1 replies} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-sync"></span> {text:tweet 1 retweets} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-heart"></span> {text:tweet 1 likes}</p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="tweet">
+                
+                <img src="{image:twt icon}"/>
+                <span class="twtname">{text:twt username}</span>
+                <span class="twthandle">@{text:twt handle} · {text:tweet 2 time ago}</span>
+                
+                <div class="twtcontents">{text:tweet 2 contents}
+                    
+                    <p><span class="lnr lnr-bubble"></span> {text:tweet 2 replies} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-sync"></span> {text:tweet 2 retweets} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-heart"></span> {text:tweet 2 likes}</p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="tweet">
+                
+                <img src="{image:twt icon}"/>
+                <span class="twtname">{text:twt username}</span>
+                <span class="twthandle">@{text:twt handle} · {text:tweet 3 time ago}</span>
+                
+                <div class="twtcontents">{text:tweet 3 contents}
+                    
+                    <p><span class="lnr lnr-bubble"></span> {text:tweet 3 replies} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-sync"></span> {text:tweet 3 retweets} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-heart"></span> {text:tweet 3 likes}</p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="tweet">
+                
+                <img src="{image:twt icon}"/>
+                <span class="twtname">{text:twt username}</span>
+                <span class="twthandle">@{text:twt handle} · {text:tweet 4 time ago}</span>
+                
+                <div class="twtcontents">{text:tweet 4 contents}
+                    
+                    <p><span class="lnr lnr-bubble"></span> {text:tweet 4 replies} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-sync"></span> {text:tweet 4 retweets} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="lnr lnr-heart"></span> {text:tweet 4 likes}</p>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div id="purchased" class="minitab">
+        
+        <div class="close" onclick="openMini('base')"></div>
+        
+        <div id="purchasebox">
+            
+            <div id="ptitle">purchased</div>
+            
+            <div id="minipbox">
+            
+            <div id="psubtitle">books</div>
+            
+            <div id="pbar">
+                <div id="pbarinner">
+                <img title="{text:book 1 rating}" src="{image:book cover 1}"/>
+                <img title="{text:book 2 rating}" src="{image:book cover 2}"/>
+                <img title="{text:book 3 rating}" src="{image:book cover 3}"/>
+                <img title="{text:book 4 rating}" src="{image:book cover 4}"/>
+                <img title="{text:book 5 rating}" src="{image:book cover 5}"/>
+                <img title="{text:book 6 rating}" src="{image:book cover 6}"/>
+                </div>
+            </div>
+            
+            <div id="psubtitle" style="top:150px;">movies</div>
+            
+            <div id="pbar" style="top:175px;">
+                <div id="pbarinner">
+                <img title="{text:movie 1 rating}" src="{image:movie poster 1}"/>
+                <img title="{text:movie 2 rating}" src="{image:movie poster 2}"/>
+                <img title="{text:movie 3 rating}" src="{image:movie poster 3}"/>
+                <img title="{text:movie 4 rating}" src="{image:movie poster 4}"/>
+                <img title="{text:movie 5 rating}" src="{image:movie poster 5}"/>
+                <img title="{text:movie 6 rating}" src="{image:movie poster 6}"/>
+                </div>
+            </div>
+            
+            <div id="psubtitle" style="top:270px">tv series</div>
+            
+            <div id="pbar" style="top:295px;padding-bottom:15px;">
+                <div id="pbarinner">
+                <img title="{text:show 1 rating}" src="{image:tv show 1}"/>
+                <img title="{text:show 2 rating}" src="{image:tv show 2}"/>
+                <img title="{text:show 3 rating}" src="{image:tv show 3}"/>
+                <img title="{text:show 4 rating}" src="{image:tv show 4}"/>
+                <img title="{text:show 5 rating}" src="{image:tv show 5}"/>
+                <img title="{text:show 6 rating}" src="{image:tv show 6}"/>
+                </div>
+            </div>
+            
+            </div>
+            
+        </div>        
+        
+    </div>
+    
+</div>
+
+<!-- END TABS -->
+
+</div>
+
+<!-- END CONTAINER -->
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+    <div class="ananas"><a href="https://sprfluous.tumblr.com" title="code by anna"><span class="th th-pineapple-o"></span></a></div>
+
+</body>
+</html>
