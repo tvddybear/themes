@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+POPPIN' STAR : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code or it is a code intended to be publicly available.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:background" content=""/>
+<meta name="image:sidebar" content=""/>
+<meta name="color:background" content="#fff"/>
+<meta name="color:container" content="#eee"/>
+<meta name="color:post background" content="#fff"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#eee"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#eee"/>
+<meta name="color:tags hover" content="#eee"/>
+<meta name="color:italic" content="#eee"/>
+<meta name="color:bold" content="#eee"/>
+<meta name="color:accent" content="#eee"/>
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+
+<meta name="text:tab title" content="poppin star"/>
+
+<meta name="text:container background text" content="loremipsumdolorsitamet,consecteturadipiscingelit.nullamacrisusatnequeporttitorvenenatis.invehiculaaliquettristique.aliquamaliquet,leomattisconsequatcommodo,estenimfeugiatlectus,commodointerdumnibhloremvelarcu.suspendissevitaeligulapellentesque,congueorciquis,convallisex.duissagittisturpisfaucibusvariuspulvinar.morbimolestie,lectussitametviverraornare,turpisduieleifendmassa,ategestaslectusarcusitametmauris.aeneanorcilibero,dapibustincidunturnaac,iaculiscursustortor."/>
+
+<meta name="text:tab description" content="duis placerat venenatis orci eu congue. quisque porttitor sapien ac venenatis dignissim. quisque sapien dolor, efficitur vitae metus vel, fringilla lobortis nunc. sed tincidunt eu tortor et bibendum. cras ut lectus a odio rhoncus interdum at vel turpis. ut metus nibh, scelerisque nec dui non, dapibus volutpat est. aenean convallis molestie dolor, ut vehicula metus tincidunt non. sed lorem erat, convallis at est eu, feugiat accumsan mi. curabitur id nunc ultricies, rhoncus nibh a, feugiat libero. suspendisse viverra efficitur fermentum. proin mattis vitae est sed gravida. in a risus bibendum, malesuada elit et, imperdiet nibh. maecenas quam neque, hendrerit sit amet urna vel, vulputate maximus odio. nam cursus sagittis vestibulum."/>
+
+<meta name="text:link 1 url" content="/"/>
+<meta name="text:link 1 title" content="link name"/>
+
+<meta name="text:link 2 url" content="/"/>
+<meta name="text:link 2 title" content="link name"/>
+
+<meta name="text:link 3 url" content="/"/>
+<meta name="text:link 3 title" content="link name"/>
+
+<meta name="text:link 4 url" content="/"/>
+<meta name="text:link 4 title" content="link name"/>
+
+<meta name="text:link 5 url" content="/"/>
+<meta name="text:link 5 title" content="link name"/>
+
+<meta name="text:link 6 url" content="/"/>
+<meta name="text:link 6 title" content="link name"/>
+
+<meta name="text:link 7 url" content="/"/>
+<meta name="text:link 7 title" content="link name"/>
+
+<meta name="text:link 8 url" content="/"/>
+<meta name="text:link 8 title" content="link name"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "brilliant"; src: url('https://dl.dropboxusercontent.com/s/wmxgpanbzb15hz8/Brilliant%20signature%20%20regular.otf'); }
+
+@font-face { font-family: "zeitgeist"; src: url('https://dl.dropboxusercontent.com/s/2iuciu8ndwb8br0/Zeitgeist-RegularDemo.ttf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:{color:post background};
+    font-size:11px;
+    border-radius:5px;
+    border:1px {color:container};
+    padding:3px 8px 3px 8px;
+    color:{color:text};
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:'space mono';
+    font-size:12px;
+    background:{color:background};
+    background-image:url('{image:background}');
+    background-size:cover;
+    color:{color:text};
+    overflow-y:scroll;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:50px;
+    line-height:50px;
+    margin:0px;
+    font-family:'zeitgeist';
+    text-align:center;
+    font-weight:normal;
+}
+
+h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-family:'space mono';
+    font-weight:600;
+}
+
+small {
+    font-size:12px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:329px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:308px;
+}
+
+blockquote img {
+    max-width:329px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:308px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-15px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:800px;
+    height:475px;
+    position:absolute;
+    top:25px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    background:{color:container};
+}
+
+#continner {
+    width:800px;
+    height:475px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+}
+
+#textbox {
+    width:1000px;
+    height:700px;
+    position:absolute;
+    top:-80px;
+    left:-50px;
+    transform:rotate(-10deg);
+    font-family:'zeitgeist';
+    font-size:80px;
+    text-align:justify;
+    text-transform:uppercase;
+    color:{color:accent};
+    opacity:.3;
+    letter-spacing:0px;
+    word-spacing:0px;
+    word-wrap:break-word;
+    line-height:100%;
+}
+
+/* LINKS */
+
+#links1 {
+    width:165px;
+    height:25px;
+    line-height:25px;
+    position:absolute;
+    top:-25px;
+    left:20px;
+    text-align-last:justify;
+}
+
+    #links1 a {
+        color:{color:text};
+    }
+    
+#links2 {
+    width:165px;
+    height:25px;
+    line-height:25px;
+    position:absolute;
+    top:-25px;
+    right:20px;
+    text-align-last:justify;
+}
+
+    #links2 a {
+        color:{color:text};
+        cursor:pointer;
+    }
+
+/* BASIC TAB STUFF */
+
+.tab {
+    width:390px;
+    height:550px;
+    position:absolute;
+    top:-50px;
+    left:205px;
+    background:{color:post background};
+    animation:.5s easeIn;
+    overflow:hidden;
+    display:none;
+}
+
+    @keyframes easeIn{
+        from{width:0px;height:0px;left:400px;top:225px;}
+        to{width:390px;height:550px;left:205px;top:-50px;}
+    }
+    
+    .close {
+        width:200px;
+        height:20px;
+        position:absolute;
+        top:15px;
+        left:calc(50% - 100px);
+        line-height:20px;
+        text-align:center;
+    }
+        
+        .close span {
+            cursor:pointer;
+        }
+    
+/* NAVI TAB */
+
+#title {
+    font-size:80px;
+    font-family:'zeitgeist';
+    width:430px;
+    height:100px;
+    position:absolute;
+    top:50px;
+    left:-20px;
+    text-align:center;
+    line-height:100px;
+    color:{color:accent};
+}
+
+#linksbox {
+    width:260px;
+    height:120px;
+    position:absolute;
+    top:170px;
+    left:calc(50% - 125px);
+}
+
+    .link {
+        width:55px;
+        height:55px;
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        line-height:55px;
+        text-align:center;
+        background:{color:bold};
+        font-size:18px;
+        border-radius:55px;
+        color:{color:post background};
+    }
+
+#blurb {
+    width:310px;
+    height:200px;
+    position:absolute;
+    bottom:40px;
+    left:calc(50% - 155px);
+    overflow-y:scroll;
+    text-align:justify;
+}
+
+/* MUSES TAB */
+
+#musesbox {
+    width:310px;
+    height:460px;
+    position:absolute;
+    bottom:40px;
+    left:calc(50% - 155px);
+    overflow-y:scroll;
+}
+
+    .muse {
+        width:310px;
+        height:100px;
+        float:left;
+        background:{color:accent};
+        margin-bottom:10px;
+        cursor:pointer;
+    }
+    
+        .muse img {
+            width:310px;
+            height:100px;
+            float:right;
+        }
+    
+        .musename {
+            width:310px;
+            height:100px;
+            font-family:'zeitgeist';
+            font-size:50px;
+            line-height:100px;
+            text-align:center;
+            color:{color:post background};
+            float:right;
+            margin-top:-100px;
+        }
+        
+/* POPUPS */
+
+#sheet {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    background:{color:post background};
+    opacity:.5;
+    display:none;
+    animation:fadeIn .5s;
+    cursor:pointer;
+}
+
+    @keyframes fadeIn{
+        from{opacity:0}
+        to{opacity:.5}
+    }
+
+.popup {
+    width:390px;
+    height:380px;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    background:{color:post background};
+    display:none;
+    animation:expand .5s;
+    overflow:hidden;
+}
+
+    @keyframes expand{
+        from{
+            width:0px;
+            height:0px;
+        }
+        to{
+            width:390px;
+            height:360px;
+        }
+    }
+    
+    .popimg {
+        width:140px;
+        height:380px;
+        position:absolute;
+        top:0px;
+        left:0px;
+        overflow:hidden;
+    }
+    
+        .popimg img {
+            width:140px;
+        }
+        
+    .poptitle {
+        width:350px;
+        height:60px;
+        line-height:60px;
+        font-family:'zeitgeist';
+        font-size:60px;
+        position:absolute;
+        top:20px;
+        right:20px;
+        color:{color:accent};
+        text-align:right;
+    }
+    
+    .popstats {
+        width:210px;
+        height:120px;
+        position:absolute;
+        top:80px;
+        right:20px;
+        overflow:hidden;
+    }
+    
+        .stat {
+            width:210px;
+            height:20px;
+            background:{color:background};
+            float:left;
+            margin-bottom:5px;
+        }
+        
+            .statinner {
+                height:20px;
+                background:{color:italic};
+                float:left;
+            }
+            
+            .statname {
+                height:20px;
+                width:200px;
+                float:left;
+                margin-top:-20px;
+                margin-left:10px;
+                line-height:20px;
+                text-align:left;
+            }
+            
+    .poplinks {
+        width:210px;
+        height:30px;
+        line-height:30px;
+        font-size:18px;
+        text-align-last:justify;
+        position:absolute;
+        top:210px;
+        right:20px;
+    }
+    
+    .tweet {
+        width:210px;
+        height:110px;
+        position:absolute;
+        top:250px;
+        right:20px;
+        border:1px {color:container} solid;
+    }
+    
+        .tweet img {
+            width:35px;
+            height:35px;
+            border-radius:50%;
+            position:absolute;
+            top:5px;
+            left:5px;
+        }
+        
+        .twtname {
+            width:155px;
+            height:25px;
+            line-height:120%;
+            position:absolute;
+            top:10px;
+            right:5px;
+            font-size:10px;
+        }
+        
+            .twtname b {
+                font-size:11.5px;
+            }
+            
+        .twt {
+            width:200px;
+            height:55px;
+            overflow-y:hidden;
+            line-height:11px;
+            font-size:10px;
+            position:absolute;
+            bottom:5px;
+            left:5px;
+        }
+    
+/* POSTS STYLING */
+
+.posts {
+    width:430px;
+    height:550px;
+    overflow-y:scroll;
+    position:absolute;
+    top:-50px;
+    left:185px;
+}
+
+.postholder {
+    width:390px;
+    height:auto;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:0px;
+    overflow:hidden;
+    background:{color:post background};
+}
+
+.postholder:first-of-type {
+    margin-top:0px;
+}
+
+.post {
+    background:{color:post background};
+    width:350px;
+    display:inline-block;
+    height:auto;
+    padding:20px;
+    font-size:12px;
+    text-align:justify;
+}
+
+.postholder:last-of-type {
+    margin-bottom:20px;
+}
+
+.post img {
+    max-width:350px;
+    height:auto;
+}
+
+.photoset {
+    width:350px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:330px;
+    text-align:left;
+    padding:10px;
+    background:{color:container};
+    color:{color:accent};
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:328px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:container} solid;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:330px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:250px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:350px;
+    text-align:justify;
+    padding:5px 20px 20px 20px;
+    font-size:11px;
+}
+
+.tags .lnr-tag {
+    font-size:20px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:390px;
+    height:30px;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+.postinfo span {
+    margin-right:5px;
+}
+
+.postdate {
+    float:left;
+    padding-right:10px;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-left:20px;
+    margin-top:10px;
+    border-right:1px {color:background} solid;
+}
+
+.postnotestat {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:10px;
+    border-right:1px {color:background} solid;
+}
+
+.reblogpost {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+/* PAGINATION */
+
+#pagination {
+    width:390px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    text-align:center;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    word-spacing:10px;
+    background:{color:post background};
+    color:{color:bold};
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:150px;
+    height:80px;
+    padding:3px;
+    border-radius:5px;
+    font-size:13px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    line-height:60px;
+    text-align:center;
+    color:{color:accent};
+}
+
+.ananas strong {
+    font-family:brilliant;
+    font-size:30px;
+}
+
+/* FUK U TUMBLR */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    transform:scale(0.65);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.65);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.65);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.65);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.65);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+
+</style>
+</head>
+<body>
+
+<script>
+    
+function openTab(tabname){
+    var x = document.getElementsByClassName('tab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    document.getElementById(tabname).style.display = 'block';
+}
+
+function openPopup(popupname){
+    document.getElementById('sheet').style.display = 'block';
+    document.getElementById(popupname).style.display = 'block';
+}
+
+function closePopup(){
+    document.getElementById('sheet').style.display = 'none';
+    var x = document.getElementsByClassName('popup');
+    for (i=0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+}
+    
+</script>
+
+<div id="container">
+
+<div id="continner">
+<div id="textbox">
+    {text:container background text}
+</div>
+</div>
+    
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {DayOfMonth} {Month} {Year}{/block:Date}</a></div>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {TimeAgo} {/block:Date}</a></div>
+{/block:IfTimeAgoFormat}
+<div class="postnotestat"><a href="{Permalink}"><span class="lnr lnr-tag"></span> {NoteCountWithLabel}</a></div>
+<div class="reblogpost"><a href="{ReblogURL}"><span class="lnr lnr-sync"></span> reblog</a></div>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags"><span class="lnr lnr-tag"></span>{block:Tags} <div class="tag"><a href="{TagURL}">{TAG}</a>,</div> {/block:Tags}</div> {/block:HasTags}
+
+</div>
+
+
+
+{/block:Posts}
+    
+{block:Pagination}
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">PREV</a> / {/block:PreviousPage}
+        {block:NextPage}<a href="{NextPage}">NEXT</a>{/block:NextPage}
+</div>
+{/block:Pagination}
+    
+</div>
+
+<div id="links1">
+    
+    <a href="/">INDEX</a> 
+    
+    <a href="/ask">MESSAGEBOX</a>
+    
+</div>
+
+<div id="links2">
+    
+    <a onclick="openTab('navi')">NAVIGATION</a> 
+    
+    <a onclick="openTab('muses')">MUSES</a>
+    
+</div>
+
+<div class="tab" id="navi">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display = 'none'">close this tab</span></div>
+    
+    <div id="title">{text:tab title}</div>
+    
+    <div id="linksbox">
+        
+        <a href="{text:link 1 url}" title="{text:link 1 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 2 url}" title="{text:link 2 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 3 url}" title="{text:link 3 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 4 url}" title="{text:link 4 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        
+        <a href="{text:link 5 url}" title="{text:link 5 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 6 url}" title="{text:link 6 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 7 url}" title="{text:link 7 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        <a href="{text:link 8 url}" title="{text:link 8 title}"><div class="link"><span class="lnr lnr-star"></span></div></a>
+        
+    </div>
+    
+    <div id="blurb">
+        {text:tab description}
+    </div>
+    
+</div>
+
+<!-- MUSES TAB -->
+
+<div class="tab" id="muses">
+    
+    <div class="close"><span onclick="this.parentElement.parentElement.style.display='none'">close this tab</span></div>
+    
+    <div id="musesbox">
+        
+        <!-- MUSE 1 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse1')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 2 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse2')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 3 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse3')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 4 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse4')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 5 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse5')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 6 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse6')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 7 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse7')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+        <!-- MUSE 8 LINK -->
+        
+        <div class="muse" onclick="openPopup('muse8')">
+            <img src="https://via.placeholder.com/310x100"/>
+            <div class="musename">chara name</div>
+        </div>
+        
+    </div>
+    
+</div>
+
+</div>
+
+<!-- POPUPS -->
+
+<div id="sheet" onclick="closePopup()"></div>
+
+<!-- MUSE 1 POPUP -->
+
+<div class="popup" id="muse1">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 1 POPUP -->
+
+<!-- MUSE 2 POPUP -->
+
+<div class="popup" id="muse2">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 2 POPUP -->
+
+<!-- MUSE 3 POPUP -->
+
+<div class="popup" id="muse3">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 3 POPUP -->
+
+<!-- MUSE 4 POPUP -->
+
+<div class="popup" id="muse4">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 4 POPUP -->
+
+<!-- MUSE 5 POPUP -->
+
+<div class="popup" id="muse5">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 5 POPUP -->
+
+<!-- MUSE 6 POPUP -->
+
+<div class="popup" id="muse6">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 6 POPUP -->
+
+<!-- MUSE 7 POPUP -->
+
+<div class="popup" id="muse7">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 7 POPUP -->
+
+<!-- MUSE 8 POPUP -->
+
+<div class="popup" id="muse8">
+    
+    <div class="popimg"><img src="https://via.placeholder.com/140x380"/></div>
+    
+    <div class="poptitle">chara name</div>
+    
+    <div class="popstats">
+        
+        <div class="stat">
+            <div class="statinner" style="width:50%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:80%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:20%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:35%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+        <div class="stat">
+            <div class="statinner" style="width:90%;"></div>
+            <div class="statname">stat name</div>
+        </div>
+        
+    </div>
+    
+    <div class="poplinks">
+        
+        <a href="/url" title="bio"><span class="lnr lnr-user"></span></a> 
+        <a href="/tagged/chara name" title="tag"><span class="lnr lnr-tag"></span></a> 
+        <a href="/url" title="link name"><span class="lnr lnr-link"></span></a>
+        <a href="/url" title="link name"><span class="lnr lnr-heart"></span></a>
+        
+    </div>
+    
+    <div class="tweet">
+        
+        <img src="https://via.placeholder.com/35x35"/>
+        
+        <div class="twtname">
+            <b>username</b><br>
+            @handle
+        </div>
+        
+        <div class="twt">
+            you can get up to five lines of text into this space which might get close to 280 characters but idk i guess you'll just have to see.
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- END MUSE 8 POPUP -->
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+    <div class="ananas"><a href="https://sprfluous.tumblr.com"><strong>sprfluous</strong></a></div>
+
+</body>
+</html>
