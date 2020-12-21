@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+DON'T NEED YOUR LOVE : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+
+Credit:
+- Font hosted by me.
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=ABeeZee:400,400i&display=swap" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:header" content=""/>
+<meta name="image:sidebar image" content=""/>
+<meta name="image:event image" content=""/>
+<meta name="color:background" content="#8bc3d8"/>
+<meta name="color:borders" content="#aaa"/>
+<meta name="color:post background" content="#fff"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#be547b"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#be547b"/>
+<meta name="color:tags hover" content="#be547b"/>
+<meta name="color:italic" content="#be547b"/>
+<meta name="color:bold" content="#7e25bb"/>
+<meta name="color:accent" content="#7e25bb"/>
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+<meta name="text:header title" content="title !"/>
+<meta name="text:header description" content="this is the description !"/>
+
+<meta name="text:askbox link url" content="/ask"/>
+
+<meta name="text:link one url" content="/"/>
+<meta name="text:link one title" content="link one"/>
+<meta name="text:link two url" content="/"/>
+<meta name="text:link two title" content="link two"/>
+<meta name="text:link three url" content="/"/>
+<meta name="text:link three title" content="link three"/>
+
+<meta name="text:sidebar description" content="here is the sidebar description ! use as you wish !"/>
+
+<meta name="text:app link url" content="/app"/>
+
+<meta name="text:update one" content="00.00.00 : update"/>
+<meta name="text:update two" content="00.00.00 : update"/>
+<meta name="text:update three" content="00.00.00 : update"/>
+
+<meta name="text:event title" content="event title !"/>
+<meta name="text:event post url" content="/post/"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "anja"; src: url('https://dl.dropboxusercontent.com/s/enq1slj6edvsk1r/Anja%20Eliane%20accent002.ttf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:#fff;
+    font-size:11px;
+    border-radius:5px;
+    padding:3px 8px 3px 8px;
+    color:#000;
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:abeezee;
+    font-size:11px;
+    background:{color:background};
+    color:{color:text};
+    overflow-y:hidden;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:30px;
+    line-height:30px;
+    margin-bottom:5px;
+    font-family:anja;
+    text-align:center;
+    text-transform:lowercase;
+    font-weight:normal;
+}
+
+h2 {
+    color:{color:accent};
+    font-size:20px;
+    text-align:left;
+    line-height:20px;
+    margin-top:0px;
+    font-weight:normal;
+    font-family:anja;
+    text-transform:lowercase;
+}
+
+small, sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:379px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:358px;
+}
+
+blockquote img {
+    width:379px;
+}
+
+blockquote blockquote img {
+    width:358px;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-15px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:1000px;
+    height:100%;
+    position:absolute;
+    top:0;bottom:0;left:0;right:0;
+    margin:auto;
+    overflow-x:visible;
+    overflow-y:scroll;
+}
+
+/* HEADER */
+
+#header {
+    width:1000px;
+    height:230px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:{color:post background};
+    background-image:url('{image:header}');
+    background-size:680px;
+    border-radius:0px 0px 5px 5px;
+    overflow:hidden;
+}
+
+#headerinfo {
+    width:400px;
+    height:230px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    background:{color:accent};
+    -webkit-clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 30%);
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 30%);
+}
+
+#headerinfo h1 {
+    width:300px;
+    height:auto;
+    position:absolute;
+    right:60px;
+    top:10px;
+    text-align:center;
+    line-height:40px;
+    font-size:40px;
+    margin:0px;
+    color:{color:post background};
+    text-shadow:2px 2px 0px {color:italic};
+    z-index:500;
+}
+
+#headertext {
+    width:205px;
+    height:88px;
+    position:absolute;
+    bottom:30px;
+    right:80px;
+    overflow-y:scroll;
+    color:{color:post background};
+    text-align:justify;
+}
+
+#headertext b, #headertext strong {
+    color:{color:post background};
+    text-shadow:0px 0px 1px {color:post background};
+}
+
+#headertext i, #headertext em {
+    color:{color:post background};
+}
+
+#links {
+    width:60px;
+    height:230px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    font-size:16px;
+}
+
+#links a {
+    float:left;
+    margin-left:15px;
+    margin-top:10px;
+    padding:6px 8px 6px 8px;
+    border-radius:5px;
+    background:{color:post background};
+    color:{color:text};
+}
+
+#links a:first-of-type {
+    margin-top:18px;
+}
+
+/* SIDEBARS */
+
+#sidebar {
+    width:320px;
+    height:350px;
+    position:absolute;
+    background:{color:post background};
+    top:260px;
+    left:0px;
+    border-radius:5px;
+}
+
+#sidebarimage {
+    width:320px;
+    height:350px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius:5px;
+    background:{color:accent};
+    background-image:url('{image:sidebar image}');
+    background-size:cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 64% 100%, 0 79%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 64% 100%, 0 79%);
+}
+
+#sidebartext {
+    width:200px;
+    height:230px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    color:{color:text};
+    text-align:justify;
+    font-size:12px;
+    background:rgba(0,0,0,.4);
+    border-radius:5px;
+    padding:20px;
+    overflow-y:scroll;
+}
+
+#rightbar {
+    width:190px;
+    height:calc(100% - 30px);
+    position:absolute;
+    top:260px;
+    right:0px;
+}
+
+.rightlink {
+    padding:8px 18px 8px 18px;
+    font-size:16px;
+    border-radius:5px;
+    background:{color:post background};
+    float:left;
+    margin-right:17px;
+}
+
+.rightlink span {
+    color:{color:text};
+}
+
+.rightlink:last-of-type {
+    margin-right:0px;
+}
+
+#updates {
+    width:190px;
+    height:150px;
+    position:absolute;
+    top:53px;
+    right:0px;
+    background:{color:post background};
+    border-radius:5px;
+}
+
+#updates h1 {
+    font-family:abeezee;
+    text-transform:lowercase;
+    margin:0px;
+    width:170px;
+    padding-left:20px;
+    height:29px;
+    line-height:29px;
+    font-size:16px;
+    font-style:italic;
+    text-align:left;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-bottom:1px {color:borders} solid;
+}
+
+.update {
+    width:150px;
+    height:19px;
+    line-height:19px;
+    border-bottom:1px {color:borders} solid;
+    padding:10px 20px 10px 20px;
+    display:inline-block;
+    text-align:left;
+    margin:0px;
+}
+
+.update:first-of-type {
+    margin-top:30px;
+}
+
+.update:last-of-type {
+    border-bottom:0px transparent solid;
+}
+
+#event {
+    width:190px;
+    height:165px;
+    position:absolute;
+    top:221px;
+    left:0px;
+    background:{color:post background};
+    border-radius:5px;
+}
+
+#event img {
+    width:190px;
+    height:100px;
+    border-radius:5px 5px 0px 0px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#fff;
+}
+
+#event h1 {
+    margin:0px;
+    position:absolute;
+    top:105px;
+    left:20px;
+}
+
+#event a {
+    position:absolute;
+    bottom:15px;
+    left:20px;
+    font-size:10px;
+    text-transform:uppercase;
+    font-style:italic;
+}
+
+/* TAB STUFF */
+
+.close {
+    position:absolute;
+    width:50px;
+    height:22px;
+    background:{color:accent};
+    color:{color:post background};
+    text-align:center;
+    top:15px;
+    right:15px;
+    font-size:12px;
+    text-transform:lowercase;
+    border-radius:30px;
+    line-height:22px;
+    cursor:pointer;
+    font-style:italic;
+    border:1px {color:accent} solid;
+    transition:.2s linear;
+}
+
+.close:hover {
+    color:{color:accent};
+    background:{color:post background};
+    transition:.2s linear;
+}
+
+#one {
+    width:430px;
+    height:580px;
+    position:absolute;
+    top:260px;
+    right:220px;
+    background:{color:post background};
+    margin:auto;
+    display:none;
+    animation:fadeEffect 0.5s;
+    border-radius:5px;
+}
+
+@keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* TAB STYLING */
+
+#tablinks {
+    width:240px;
+    height:240px;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+
+.tablink {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    font-style:italic;
+    margin-right:18px;
+    margin-bottom:18px;
+    font-size:15px;
+    text-align:center;
+    border-radius:5px;
+    float:left;
+    background:{color:accent};
+    color:{color:post background};
+}
+
+#linkstitle {
+    width:115px;
+    height:130px;
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size:40px;
+    text-align:justify;
+    word-wrap:break-word;
+    color:{color:text};
+    text-shadow:2px 2px 0px {color:bold};
+}
+
+#plottitle {
+    width:115px;
+    height:130px;
+    position:absolute;
+    top:210px;
+    left:40px;
+    font-size:40px;
+    text-align:justify;
+    word-wrap:break-word;
+    color:{color:text};
+    text-shadow:2px 2px 0px {color:bold};
+}
+
+#plot {
+    width:240px;
+    height:160px;
+    position:absolute;
+    top:210px;
+    right:30px;
+    overflow-y:scroll;
+    text-align:justify;
+}
+
+#rulestitle {
+    width:120px;
+    height:130px;
+    position:absolute;
+    bottom:30px;
+    right:25px;
+    font-size:40px;
+    text-align:justify;
+    word-wrap:break-word;
+    color:{color:text};
+    text-shadow:2px 2px 0px {color:bold};
+}
+
+#rules {
+    width:240px;
+    height:160px;
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    overflow-y:scroll;
+    text-align:justify;
+}
+
+#rules b {
+    font-size:25px;
+    font-family:anja;
+}
+
+/* ADMIN POPUP */
+
+.popup {
+    width:100vw;
+    height:100vh;
+    display:none;
+    z-index:5000000000000;
+    animation:fadeEffect .5s;
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    margin:auto;
+}
+ 
+.shroud {
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#000000a0;
+}
+ 
+.popbox {
+    width:300px;
+    height:450px;
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    margin:auto;
+    background:{color:post background};
+    overflow:hidden;
+    border-radius:5px;
+}
+
+.admin {
+    width:300px;
+    height:150px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+.admin img {
+    width:80px;
+    height:80px;
+    position:absolute;
+    top:35px;
+    left:35px;
+    border-radius:5px;
+    background:{color:accent};
+}
+
+.admin h1 {
+    width:130px;
+    height:40px;
+    position:absolute;
+    right:35px;
+    top:35px;
+    margin:0px;
+    line-height:40px;
+    font-size:40px;
+    color:{color:text};
+}
+
+.admin span {
+    width:155px;
+    height:40px;
+    line-height:20px;
+    position:absolute;
+    bottom:35px;
+    right:15px;
+    margin:0px;
+}
+
+/* POSTS STYLING */
+
+.posts {
+    width:470px;
+    height:calc(100% - 30px);
+    overflow-y:scroll;
+    position:absolute;
+    top:260px;
+    right:200px;
+    border-radius:20px 0px 20px 0px;
+    animation:fadeEffect 0.5s;
+}
+
+.postholder {
+    width:430px;
+    height:auto;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.post {
+    background:{color:post background};
+    width:400px;
+    display:inline-block;
+    height:auto;
+    padding:15px;
+}
+
+.postholder:first-of-type {
+    margin-top:0px;
+}
+
+.postholder:last-of-type {
+    margin-bottom:30px;
+}
+
+.post img {
+    max-width:400px;
+    border-radius:5px;
+}
+
+.photoset {
+    width:400px;
+    border-radius:3px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:380px;
+    text-align:center;
+    padding:10px;
+    background:{color:text};
+    color:{color:post background};
+}
+
+.askee i {
+    color:{color:post background};
+}
+
+.askee a {
+    color:{color:post background};
+}
+
+.question {
+    width:380px;
+    padding:10px;
+    text-align:justify;
+    background:{color:borders};
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:380px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:300px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:400px;
+    text-align:justify;
+    padding:8px 15px 8px 15px;
+    font-size:11px;
+    background:{color:post background};
+    border-top:1px {color:borders} solid;
+    border-radius:0px 0px 5px 5px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.tag:{
+    padding-right:0px;
+}
+
+.postinfo{
+    width:400px;
+    height:20px;
+    border-bottom:1px {color:borders} solid;
+    padding:5px 15px 5px 15px;
+    line-height:20px;
+    background:{color:post background};
+    border-radius:5px 5px 0px 0px;
+}
+
+.date{
+    position:relative;
+    margin-left:0px;
+    padding-right:5px;
+    text-transform:uppercase;
+}
+
+.notecount a{
+    color:{color:links};
+    text-transform:uppercase;
+    font-size:11px;
+}
+
+.notecount {
+    float:right;
+    display:inline-block;
+    margin-top:-20px;
+}
+
+.reblog {
+    margin-left:10px;
+    display:inline-block;
+    text-align:right;
+    color:{color:text};
+}
+
+.reblog a:hover {
+    text-decoration:none;
+}
+
+/* PAGINATION */
+
+#pagination {
+    width:200px;
+    height:32px;
+    line-height:32px;
+    margin-left:150px;
+    margin-bottom:20px;
+    margin-top:30px;
+    color:{color:text};
+    font-size:12px;
+    text-transform:uppercase;
+    text-align:center;
+    -webkit-filter:drop-shadow(0px 0px 5px #00000020);
+    filter:drop-shadow(0px 0px 5px #00000020);
+}
+
+#pagination a {
+    color:#000;
+    padding:0px 10px 10px 0px;
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:25px;
+    height:25px;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    border-radius:25px;
+    line-height:25px;
+    font-size:25px;
+    color:{color:post background};
+    text-align:center;
+}
+
+.ananas i {
+    color:{color:accent};
+}
+
+/* FUK U TUMBLR */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    /* delete invert(1) from here */
+        filter:invert(1) contrast(150%);
+        -webkit-filter:invert(1) contrast(150%);
+        -o-filter:invert(1) contrast(150%);
+        -moz-filter:invert(1) contrast(150%);
+        -ms-filter:invert(1) contrast(150%);
+    /* to here if your blog has a dark background */
+    transform:scale(0.65);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.65);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.65);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.65);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.65);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+</style>
+</head>
+<body>
+
+<script>
+
+function openNav(){
+    $("#one").show();
+    $(".posts").hide();
+}
+
+function closeNav(){
+    $('#one').hide();
+    $('.posts').show();
+}
+
+function openPopup(id){
+    var x = '#popup'
+    x += id
+    $(x).show();
+}
+ 
+function closePopup(id){
+    var x = '#popup'
+    x += id
+    $(x).hide();
+}
+    
+</script>
+
+<div id="container">
+
+<!-- HEADER -->
+
+<div id="header">
+    
+    <div id="headerinfo">
+        
+        <h1>{text:header title}</h1>
+        <div id="headertext">
+            {text:header description}
+        </div>
+        
+        <div id="links">
+            <a href="/" title="home"><span class="lnr lnr-home"></span></a>
+            <a href="{text:askbox link url}" title="message"><span class="lnr lnr-inbox"></span></a>
+            <a href="{text:link one url}" title="{text:link one title}"><span class="lnr lnr-star"></span></a>
+            <a href="{text:link two url}" title="{text:link two title}"><span class="lnr lnr-sun"></span></a>
+            <a href="{text:link three url}" title="{text:link three title}"><span class="lnr lnr-moon"></span></a>
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- SIDEBARS -->
+
+<div id="sidebar">
+    
+    <div id="sidebarimage"></div>
+    
+    <div id="sidebartext">{text:sidebar description}</div>
+    
+</div>
+ 
+<div id="rightbar">
+    
+    <a class="rightlink" onclick="openPopup('admin')" title="meet the admins"><span class="lnr lnr-user"></span></a>
+    <a class="rightlink" onclick="openNav()" title="navigation"><span class="lnr lnr-map"></span></a>
+    <a class="rightlink" href="{text:app link url}" title="apply here"><span class="lnr lnr-file-empty"></span></a>
+    
+    <div id="updates">
+        
+        <h1>schedule</h1>
+        
+        <div class="update">{text:update one}</div>
+        <div class="update">{text:update two}</div>
+        <div class="update">{text:update three}</div>
+        
+    </div>
+    
+    <div id="event">
+        
+        <img src="{image:event image}"/>
+        <h1>{text:event title}</h1>
+        <a href="{text:event post url}">go to post</a>
+        
+    </div>
+    
+</div>
+    
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+<div class="date">
+{block:IfDayMonthYearFormat}
+<a href="{Permalink}">{block:Date} {DayOfMonth} {Month} {Year}{/block:Date}</a>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<a href="{Permalink}">{block:Date} {TimeAgo} {/block:Date}</a>
+{/block:IfTimeAgoFormat}
+</div>
+
+<div class="notecount">
+    <a href="{Permalink}">{NoteCountWithLabel}</a> 
+    <div class="reblog"><a href="{ReblogURL}">reblog</a></div>
+</div>
+
+    
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags">{block:Tags} <div class="tag"><a href="{TagURL}"># {TAG}</a></div> {/block:Tags}</div> {/block:HasTags}
+
+</div>
+
+
+
+{/block:Posts}
+
+{block:Pagination}
+<div id="pagination">
+     {block:PreviousPage}
+           <a href="{PreviousPage}">previous</a>
+     {/block:PreviousPage}
+     {block:NextPage}
+           <a href="{NextPage}">next</a>
+     {/block:NextPage}
+</div>
+{/block:Pagination}
+
+</div>
+
+<!-- NAV TAB -->
+
+<div id="one">
+
+<span class="close" onclick="closeNav()">close</span>
+
+<h1 id="linkstitle">look around</h1>
+
+<div id="tablinks">
+    
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:accent};color:{color:post background};border:1px {color:accent} solid;">a.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:italic};color:{color:post background};border:1px {color:italic} solid;">b.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:bold};color:{color:post background};border:1px {color:bold} solid;">c.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:accent};color:{color:post background};border:1px {color:accent} solid;">d.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:italic};color:{color:post background};border:1px {color:italic} solid;">e.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:bold};color:{color:post background};border:1px {color:bold} solid;">f.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:accent};color:{color:post background};border:1px {color:accent} solid;">g.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:italic};color:{color:post background};border:1px {color:italic} solid;">h.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:bold};color:{color:post background};border:1px {color:bold} solid;">i.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:accent};color:{color:post background};border:1px {color:accent} solid;">j.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:italic};color:{color:post background};border:1px {color:italic} solid;">k.</div></a>
+    <a href="/linkurlhere"><div class="tablink" style="background:{color:bold};color:{color:post background};border:1px {color:bold} solid;">l.</div></a>
+    
+</div>
+
+<h1 id="plottitle">the plot</h1>
+
+<div id="plot">
+
+yeah, you and i fell in too deep love, hate, no in between too little, too late for us, oh-oh those dimples on your face don't work the same these days it's clear we've both had enough, yeah yeah yeah you think it's my heart you're holding you still think you're all that i need, yeah yeah yeah i know we're fire and ocean, yeah you ain't got nothing on me i don't need your love if you're waiting for a comeback, hold on i don't need your love if you think i'm gonna come back. i won't i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it a moment of brilliant light the faded memories are now like dust, oh-oh out of our grasp our time together is now over, yeah yeah yeah my memories are fading even the way i used to look at you, yeah yeah yeah just as the wind never lingers, yeah i will just pass you by i don't need your love there's no use waiting i don't need your love it won't work out i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it ring ring, ring ring missed call, another missed call midnight, 12:30, 2, 2:30 stressing i'm going crazy, please, because of you i can't sleep what are you thinking? no, don’t say it aside from you i have many other things to lean on i don't wanna go back i don't need your love if you're waiting for a comeback, hold on i don't need your love it won't work out i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it
+    
+</div>
+
+<h1 id="rulestitle">the rulebook</h1>
+
+<div id="rules">
+    
+<p><b>one.</b> yeah, you and i fell in too deep love, hate, no in between too little, too late for us, oh-oh those dimples on your face don't work the same these days it's clear we've both had enough, yeah yeah yeah you think it's my heart you're holding you still think you're all that i need, yeah yeah yeah i know we're fire and ocean, yeah you ain't got nothing on me</p>
+
+<p><b>two.</b> i don't need your love if you're waiting for a comeback, hold on i don't need your love if you think i'm gonna come back. i won't i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it</p>
+
+<p><b>three.</b> a moment of brilliant light the faded memories are now like dust, oh-oh out of our grasp our time together is now over, yeah yeah yeah my memories are fading even the way i used to look at you, yeah yeah yeah just as the wind never lingers, yeah i will just pass you by</p>
+
+<p><b>four.</b> i don't need your love there's no use waiting i don't need your love it won't work out i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it</p>
+
+<p><b>five.</b> ring ring, ring ring missed call, another missed call midnight, 12:30, 2, 2:30 stressing i'm going crazy, please, because of you i can't sleep what are you thinking? no, don’t say it aside from you i have many other things to lean on i don't wanna go back</p>
+
+<p><b>six.</b> i don't need your love if you're waiting for a comeback, hold on i don't need your love it won't work out i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it i don't need your love don't need it don't need it, need it, no don't need it</p>
+    
+</div>
+
+</div>
+
+</div>
+
+<!-- ADMIN POPUP -->
+
+<div id="popupadmin" class="popup">
+    <div class="shroud" onclick="closePopup('admin')"></div>
+   
+    <div class="popbox">
+        
+        <div class="admin">
+            <img src=""/>
+            <h1>admin.</h1>
+            <span>pronouns . age . timezone .</span>
+        </div>
+        
+        <div class="admin" style="top:150px;">
+            <img src=""/>
+            <h1>admin.</h1>
+            <span>pronouns . age . timezone .</span>
+        </div>
+        
+        <div class="admin" style="top:300px;">
+            <img src=""/>
+            <h1>admin.</h1>
+            <span>pronouns . age . timezone .</span>
+        </div>
+       
+    </div>
+   
+</div>
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+<a href="https://sprfluous.tumblr.com" title="code by anna"><div class="ananas"><i class="far fa-star"></i></div></a>
+
+<script>
+    window.onload = function(){
+    $('#one').hide();
+    $("#one").css("display", "block");
+    $('#one').hide();
+}
+</script>
+
+</body>
+</html>
