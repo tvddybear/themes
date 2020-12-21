@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+ 
+SUPER CLAP : A THEME BY ANNA
+ 
+sprfluous.tumblr.com / patreon.com/codesbyanna
+ 
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon or have otherwise been granted express permission by the creator to use this code.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+
+Credit:
+- Font hosted by me.
+ 
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap" rel="stylesheet">
+
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+
+<meta name="" content=""/>
+
+-->
+
+<meta name="image:background" content=""/>
+<meta name="image:sidebar image 1" content="http://via.placeholder.com/300x300"/>
+
+<meta name="image:sidebar image 2" content="http://via.placeholder.com/200x200"/>
+
+<meta name="image:sidebar icon" content="http://via.placeholder.com/50x50"/>
+
+<meta name="image:tab image 1" content="http://via.placeholder.com/300x400"/>
+
+<meta name="image:tab image 2" content="http://via.placeholder.com/350x350"/>
+
+<meta name="color:background" content="#fff"/>
+<meta name="color:container" content="#eee"/>
+<meta name="color:post background" content="#fff"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:links" content="#eee"/>
+<meta name="color:links hover" content="#000"/>
+<meta name="color:tags" content="#eee"/>
+<meta name="color:tags hover" content="#eee"/>
+<meta name="color:italic" content="#eee"/>
+<meta name="color:bold" content="#eee"/>
+<meta name="color:accent" content="#eee"/>
+<meta name="color:accent 2" content="#eee"/>
+<meta name="if:day month year format" content="1"/>
+<meta name="if:time ago format" content="0"/>
+
+<meta name="text:sidebar title" content="lorem ipsum"/>
+
+<meta name="text:sidebar description" content="lorem ipsum dolor sit amet, consectetur adipiscing elit. aenean et euismod diam. sed ut erat facilisis, posuere felis a, facilisis est. etiam laoreet eu erat et euismod. nulla laoreet eros id finibus bibendum. praesent viverra pharetra urna vel suscipit. maecenas laoreet nulla quis ex tempus, sit amet dignissim turpis rhoncus. vivamus volutpat, purus eu rutrum molestie, eros sem dictum est, sed feugiat turpis nisl aliquet leo. suspendisse elementum leo luctus luctus maximus. ut congue ipsum sit amet metus rutrum, vitae feugiat risus tincidunt."/>
+
+<meta name="text:link 1 url" content="/"/>
+<meta name="text:link 1 title" content="link"/>
+<meta name="text:link 2 url" content="/"/>
+<meta name="text:link 2 title" content="link"/>
+
+<meta name="text:tab description" content="lorem ipsum dolor sit amet, consectetur adipiscing elit. aenean et euismod diam. sed ut erat facilisis, posuere felis a, facilisis est. etiam laoreet eu erat et euismod. nulla laoreet eros id finibus bibendum. praesent viverra pharetra urna vel suscipit. maecenas laoreet nulla quis ex tempus, sit amet dignissim turpis rhoncus. vivamus volutpat, purus eu rutrum molestie, eros sem dictum est, sed feugiat turpis nisl aliquet leo. suspendisse elementum leo luctus luctus maximus. ut congue ipsum sit amet metus rutrum, vitae feugiat risus tincidunt."/>
+
+<meta name="text:tab stat counter" content="1 of 1000"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "brilliant"; src: url('https://dl.dropboxusercontent.com/s/ato2ma1fprf4pnd/Brilliant%20signature%201%20regular.otf'); }
+
+@font-face { font-family: "mont"; src: url('https://dl.dropboxusercontent.com/s/yevz2utt48rxzq2/Mont-HeavyDEMO.otf'); }
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:#1f1f1f;
+    font-size:11px;
+    border-radius:5px;
+    border:1px #333;
+    padding:3px 8px 3px 8px;
+    color:#fff;
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:rubik;
+    font-size:12px;
+    background:{color:background};
+    background-image:url('{image:background}');
+    background-size:cover;
+    color:{color:text};
+    overflow-y:hidden;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+    transition:.5s linear;
+}
+
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+    transition:.5s linear;
+}
+
+i, em {
+    color:{color:italic};
+}
+
+b, strong {
+    color:{color:bold};
+    font-weight:bold;
+}
+
+h1, title {
+    color:{color:accent};
+    font-size:35px;
+    line-height:30px;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-weight:normal;
+    font-family:'mont';
+    text-align:center;
+    text-transform:lowercase;
+}
+
+h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:left;
+    line-height:20px;
+    margin-top:10px;
+    font-family:'mont';
+    text-transform:lowercase;
+    font-weight:normal;
+}
+
+small, sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:329px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:5px;
+    padding-left:15px;
+    width:308px;
+}
+
+blockquote img {
+    max-width:329px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:308px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-15px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CONTAINER */
+
+#container {
+    width:750px;
+    height:550px;
+    position:absolute;
+    top:0;bottom:0;left:0;right:0;
+    margin:auto;
+    overflow:visible;
+    background:{color:container};
+    border-radius:5px;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    width:330px;
+    height:550px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#sideimage {
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius:5px 0px 100% 0px;
+    overflow:hidden;
+    background:{color:accent};
+}
+
+#sideimage img {
+    width:300px;
+    height:auto;
+}
+
+#sideimage1 {
+    width:200px;
+    height:200px;
+    position:absolute;
+    bottom:0px;
+    right:-20px;
+    border-radius:100% 0px 0px 0px;
+    overflow:hidden;
+    background:{color:accent};
+}
+
+#sideimage1 img {
+    width:200px;
+    height:auto;
+}
+
+#sidetitle {
+    font-family:mont;
+    line-height:60px;
+    font-size:60px;
+    width:500px;
+    position:absolute;
+    top:-50px;
+    left:-20px;
+    color:{color:accent};
+    z-index:600;
+}
+
+#sidetitle strong {
+    font-size:80px;
+    font-family:brilliant;
+}
+
+#sidebox {
+    width:160px;
+    height:180px;
+    position:absolute;
+    bottom:180px;
+    right:0px;
+    background:{color:post background};
+    border-radius:5px;
+    overflow-y:scroll;
+    padding:20px;
+    text-align:justify;
+}
+
+#sideicon {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:{color:accent};
+    position:absolute;
+    bottom:200px;
+    right:210px;
+    overflow:hidden;
+    transition:.5s linear;
+}
+
+#sideicon img {
+    width:50px;
+    height:auto;
+}
+
+#sideicon:hover {
+    transform:rotate(-30deg);
+    transition:.5s linear;
+}
+
+#pagi {
+    width:200px;
+    height:20px;
+    line-height:20px;
+    font-family:roboto condensed;
+    text-transform:uppercase;
+    font-size:10px;
+    background:{color:accent};
+    position:absolute;
+    right:0px;
+    bottom:150px;
+    border-radius:5px;
+}
+
+#pagi a {
+    color:{color:container};
+}
+
+#goleft {
+    width:100px;
+    text-align:center;
+    float:left;
+    margin:0px;
+}
+
+#goright {
+    width:100px;
+    text-align:center;
+    float:right;
+    margin:0px;
+}
+
+#linksbox {
+    width:80px;
+    height:210px;
+    background:{color:accent};
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    border-radius:5px;
+}
+
+/* LINKS STUFF */
+
+.linkleft {
+    width:60px;
+    height:40px;
+    font-size:20px;
+    background:{color:italic};
+    border-radius:5px;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    line-height:40px;
+    text-align:center;
+}
+
+.linkright {
+    width:60px;
+    height:40px;
+    font-size:20px;
+    background:{color:italic};
+    border-radius:5px;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    line-height:40px;
+    text-align:center;
+}
+
+#linksbox a {
+    color:{color:container};
+}
+
+/* NAV TAB */
+
+#navigate {
+    width:750px;
+    height:550px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:{color:container};
+    animation:fadein .5s;
+    overflow:hidden;
+}
+
+@keyframes fadein{
+    from{opacity:0}
+    to{opacity:1}
+}
+
+#closenav {
+    width:150px;
+    height:20px;
+    border-radius:0px 0px 5px 5px;
+    background:{color:accent};
+    position:absolute;
+    top:0px;
+    right:20px;
+    cursor:pointer;
+    line-height:20px;
+    text-align:center;
+    color:{color:container};
+    font-size:10px;
+}
+
+#tabcorner {
+    width:300px;
+    height:400px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    overflow:hidden;
+    border-radius:100% 0px 5px 0px;
+    background:{color:accent};
+}
+
+#tabcorner img {
+    width:300px;
+    height:auto;
+}
+
+#tabblurb {
+    width:340px;
+    height:140px;
+    padding:20px;
+    background:{color:post background};
+    position:absolute;
+    top:30px;
+    right:20px;
+    border-radius:5px;
+    overflow-y:scroll;
+    text-align:justify;
+}
+
+#linksbox2 {
+    width:280px;
+    height:300px;
+    background:{color:accent 2};
+    position:absolute;
+    bottom:20px;
+    left:200px;
+    border-radius:5px;
+}
+
+.link {
+    width:80px;
+    height:88px;
+    background:{color:bold};
+    color:{color:container};
+    float:left;
+    margin-left:10px;
+    margin-top:9px;
+    border-radius:5px;
+    line-height:88px;
+    text-align:center;
+    font-size:20px;
+    transition:.5s linear;
+}
+
+.link:hover {
+    background:{color:links};
+    transition:.5s linear;
+}
+
+#circle {
+    width:350px;
+    height:350px;
+    position:absolute;
+    top:80px;
+    left:80px;
+    border-radius:50%;
+    background:{color:accent 2};
+    overflow:hidden;
+}
+
+#circle img {
+    width:350px;
+    height:auto;
+}
+
+#blob {
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:-250px;
+    left:-100px;
+    border-radius:50%;
+    background:{color:italic};
+}
+
+#statcounter {
+    width:160px;
+    padding:20px 0px 20px 0px;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    background:linear-gradient(to left, {color:accent 2}, {color:bold});
+    border-radius:5px;
+    text-align:center;
+    font-family:roboto condensed;
+    font-size:12px;
+    text-transform:uppercase;
+    color:{color:post background};
+}
+
+#statcounter b, #statcounter a, #statcounter i {
+    color:{color:post background};
+    font-family:rubik;
+    font-size:16px;
+    font-weight:600;
+}
+
+/* POSTS STYLING */
+
+.posts {
+    width:420px;
+    height:550px;
+    overflow-y:scroll;
+    position:absolute;
+    top:0px;
+    right:0px;
+    display:block;
+}
+
+.postholder {
+    width:400px;
+    height:auto;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:20px;
+    overflow:hidden;
+}
+
+.post {
+    background:{color:post background};
+    width:350px;
+    display:inline-block;
+    height:auto;
+    padding:15px;
+    font-size:12px;
+    text-align:justify;
+    border-radius:5px;
+}
+
+.postholder:last-of-type {
+    margin-bottom:20px;
+}
+
+.post img {
+    max-width:350px;
+    height:auto;
+}
+
+.photoset {
+    width:350px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:330px;
+    text-align:left;
+    padding:10px;
+    background:{color:container};
+    color:{color:accent};
+    border-radius:5px 5px 0px 0px;
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:328px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:container} solid;
+    border-radius:0px 0px 5px 5px;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:330px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:250px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:350px;
+    text-align:justify;
+    padding:8px 15px 8px 15px;
+    font-size:11px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:350px;
+    height:15px;
+    line-height:15px;
+    padding:0px 15px 5px 15px;
+    text-align:right;
+    font-style:italic;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+ 
+.ananas {
+    width:110px;
+    height:20px;
+    padding:3px;
+    border-radius:5px;
+    font-size:13px;
+    position:absolute;
+    line-height:20px;
+    text-align:center;
+    left:15px;
+    bottom:30px;
+    color:{color:accent};
+}
+
+.ananas strong {
+    font-family:brilliant;
+    font-size:30px;
+}
+
+/* FUK U TUMBLR */
+
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.4;
+    transform:scale(0.65);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.65);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.65);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.65);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.65);
+    -ms-transform-origin:100% 0;}
+
+iframe.tmblr-iframe:hover {
+    opacity:0.6!important;}
+
+
+</style>
+</head>
+<body>
+
+<script>
+    
+function openTab(tabname){
+    var x = document.getElementsByClassName('tab');
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'none';
+    }
+    
+    document.getElementById(tabname).style.display = 'block';
+}
+    
+</script>
+
+<div id="container">
+    
+<!-- SIDEBAR -->
+    
+<div id="sidebar">
+    
+    <div id="sideimage"><img src="{image:sidebar image 1}"/></div>
+    
+    <div id="sideimage1"><img src="{image:sidebar image 2}"/></div>
+    
+    <div id="sidetitle">{text:sidebar title}</div>
+    
+    <div id="sidebox">{text:sidebar description}</div>
+    
+    <div id="pagi">{block:PreviousPage}<div id="goleft"><a href="{PreviousPage}">back</a></div>{/block:PreviousPage}{block:NextPage}<div id="goright"><a href="{NextPage}">next</a></div>{/block:NextPage}</div>
+    
+    <div id="linksbox">
+        
+        <div class="linkleft"><a href="/ask" title="message"><span class="far fa-comment-alt"></span></a></div>
+        <div class="linkright"><a onclick="openTab('navigate')" style="cursor:pointer;" title="navigation"><span class="fas fa-globe-asia"></span></a></div>
+        <div class="linkleft"><a href="{text:link 1 url}" title="{text:link 1 title}"><span class="fas fa-sun"></span></a></div>
+        <div class="linkright"><a href="{text:link 2 url}" title="{text:link 2 title}"><span class="fas fa-film"></span></a></div>
+        
+    </div>
+    
+    <div id="sideicon"><a href="/" title="index"><img src="{image:sidebar icon}"/></a></div>
+    
+</div>
+    
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<a href="{Permalink}">{block:Date} {DayOfMonth} {Month} {Year}{/block:Date}</a>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<a href="{Permalink}">{block:Date} {TimeAgo} {/block:Date}</a>
+{/block:IfTimeAgoFormat} <a href="{Permalink}">with {NoteCountWithLabel}</a> • <a href="{ReblogURL}">reblog</a>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" width="350px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags">{block:Tags} <div class="tag"><a href="{TagURL}"># {TAG}</a></div> {/block:Tags}</div> {/block:HasTags}
+
+</div>
+
+
+
+{/block:Posts}
+
+</div>
+
+<!-- NAV TAB -->
+
+<div id="navigate" style="display:none" class="tab">
+    
+    <div id="blob"></div>
+    
+    <div id="tabcorner"><img src="{image:tab image 1}"/></div>
+    
+    <div id="circle"><img src="{image:tab image 2}"/></div>
+    
+    <div id="tabblurb">{text:tab description}</div>
+    
+    <div id="linksbox2">
+        
+        <a href="{text:tab link 1 url}" title="{text:tab link 1 title}"><div class="link"><span class="fas fa-heart"></span></div></a>
+        
+        <a href="{text:tab link 2 url}" title="{text:tab link 2 title}"><div class="link"><span class="fas fa-star"></span></div></a>
+        
+        <a href="{text:tab link 3 url}" title="{text:tab link 3 title}"><div class="link"><span class="fas fa-sun"></span></div></a>
+        
+        <a href="{text:tab link 4 url}" title="{text:tab link 4 title}"><div class="link"><span class="fas fa-moon"></span></div></a>
+        
+        <a href="{text:tab link 5 url}" title="{text:tab link 5 title}"><div class="link"><span class="fas fa-eye"></span></div></a>
+        
+        <a href="{text:tab link 6 url}" title="{text:tab link 6 title}"><div class="link"><span class="fas fa-archive"></span></div></a>
+        
+        <a href="{text:tab link 7 url}" title="{text:tab link 7 title}"><div class="link"><span class="fas fa-file"></span></div></a>
+        
+        <a href="{text:tab link 8 url}" title="{text:tab link 8 title}"><div class="link"><span class="fas fa-film"></span></div></a>
+        
+        <a href="{text:tab link 9 url}" title="{text:tab link 9 title}"><div class="link"><span class="fas fa-camera"></span></div></a>
+        
+    </div>
+    
+    <div id="statcounter">{text:tab stat counter}</div>
+    
+    <div id="closenav" onclick="this.parentElement.style.display = 'none';"><span class="lnr lnr-cross"></span> close the tab</div>
+    
+</div>
+
+</div>
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+<a href="https://sprfluous.tumblr.com"><div class="ananas"><strong>sprfluous</strong></div></a>
+
+
+</body>
+</html>
