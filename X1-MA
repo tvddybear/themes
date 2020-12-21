@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 
+
+X1-MA : A THEME BY ANNA
+
+sprfluous.tumblr.com / patreon.com/codesbyanna
+
+Terms of Use:
+In using this code:
+- You agree that you have acquired this code through fair and legal means, i.e. the creator's Patreon, or have otherwise been granted express permission by the creator to use this code.
+- You agree to not edit this code in any way unless for your sole and exclusive use.
+- You agree to never distribute this code to another person without express written permission from the creator.
+- You agree to never attempt to make profit from this code in any way without express written permission from the creator.
+- You agree that in failing to comply with these terms, you lose any and all rights to use, edit, distribute, profit from or display the code or page that you may previously have held
+
+-->
+
+<title>{Title}</title> <!-- if u wanna change the title on the tab on ur browser u can but otherwise it'll just be ur blog title -->
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- IMPORTED SCRIPTS - DON'T REMOVE -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=ABeeZee:400,400i&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
+
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+ 
+<script>
+(function($){
+$(document).ready(function() {
+$("[title]").style_my_tooltips({
+tip_follows_cursor:false,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+
+</script>
+
+<!-- META TAGS
+ 
+<meta name="" content=""/>
+ 
+-->
+
+<meta name="image:background" content=""/>
+<meta name="image:left image" content=""/>
+<meta name="image:right image" content=""/>
+<meta name="image:video 1" content="https://static.tvtropes.org/pmwiki/pub/images/p101.jpg"/>
+<meta name="image:video 2" content="https://0.soompi.io/wp-content/uploads/2017/06/09172040/Produce-101-Season-22.jpg?s=900x600&e=t"/>
+<meta name="image:video 3" content="https://i.imgur.com/y4pu87Q.jpg"/>
+<meta name="color:background" content="#fff"/>
+<meta name="color:container background background" content="#fafafa"/>
+<meta name="color:top and side bars" content="#fff"/>
+<meta name="color:ask content background" content="#f2f2f2"/>
+<meta name="color:post background" content="#efefef"/>
+<meta name="color:text" content="#000"/>
+<meta name="color:grey text" content="#777"/>
+<meta name="color:links" content="#000"/>
+<meta name="color:links hover" content="#fff"/>
+<meta name="color:accent" content="#000"/>
+<meta name="color:tags" content="#000"/>
+<meta name="color:tags hover" content="#000"/>
+<meta name="text:videos title" content="watch these"/>
+<meta name="text:links title" content="around the site"/>
+<meta name="text:video 1 url" content="/"/>
+<meta name="text:video 1 name" content="produce 101 season 1"/>
+<meta name="text:video 2 url" content="/"/>
+<meta name="text:video 2 name" content="produce 101 season 2"/>
+<meta name="text:video 3 url" content="/"/>
+<meta name="text:video 3 name" content="produce 48"/>
+<meta name="text:link 1 url" content="/"/>
+<meta name="text:link 1 text" content="main site"/>
+<meta name="text:link 2 url" content="/"/>
+<meta name="text:link 2 text" content="contact us"/>
+<meta name="text:link 3 url" content="/"/>
+<meta name="text:link 3 text" content="audition form"/>
+<meta name="text:link 4 url" content="/"/>
+<meta name="text:link 4 text" content="mnet trainees"/>
+<meta name="text:link 5 url" content="/"/>
+<meta name="text:link 5 text" content="trainee contract"/>
+<meta name="text:url bar text" content="www.mnetproduce.co.kr"/>
+<meta name="text:disclaimer" content="Online auditions do not guarantee you an invitation to the second round of auditions. All audition data and footage becomes the property of CJ ENM once submitted. Information will not be disclosed to third parties without the consent of the user, except if used in a legal setting or similar."/>
+<meta name="text:copyright holder" content="CJ ENM"/>
+<meta name="text:first line" content="do you have what it takes to be the next wanna one?"/>
+<meta name="text:second line" content="or the next IOI?"/>
+<meta name="text:third line" content="maybe even the next iz*one?"/>
+<meta name="text:button text" content="audition now"/>
+
+<style>
+
+/* --------- FONTS -------- */
+
+@font-face { font-family: "mont"; src: url('https://dl.dropboxusercontent.com/s/yevz2utt48rxzq2/Mont-HeavyDEMO.otf'); } /* the demo version of this font (which is what is being used here) is free for commercial use, as stated on this page: https://www.dafont.com/mont.font?l[]=10&l[]=1 */
+
+/* -------- SCROLLBAR ------- */
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+/* ------- TOOLTIPS ------ */
+
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:10px 0px 0px 10px;
+    background-color:#fff;
+    font-size:11px;
+    border-radius:5px;
+    padding:3px 8px 3px 8px;
+    color:#000;
+    z-index:999999999999999999999999999999999999;
+}
+
+/* -------- BASICS ------- */
+
+body {
+    font-family:abeezee;
+    font-size:12px;
+    background:{color:background};
+    background-image:url({image:background});
+    color:{color:text};
+    background-size:cover;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:{color:links};
+}
+ 
+a:hover {
+    text-decoration:none;
+    color:{color:links hover};
+}
+ 
+i, em {
+    color:{color:accent};
+}
+ 
+b, strong {
+    color:{color:accent};
+    font-weight:bold;
+}
+
+.posts h2 {
+    color:{color:bold};
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-weight:600;
+}
+
+small {
+    font-size:12px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+sup, sub {
+    font-size:11px;
+    text-transform:normal;
+    text-decoration:none;
+}
+
+blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:479px;
+    margin-top:10px;
+}
+
+blockquote blockquote {
+    border-left:1px {color:accent} solid;
+    margin-left:0px;
+    padding-left:20px;
+    width:458px;
+}
+
+blockquote img {
+    max-width:479px;
+    height:auto;
+}
+
+blockquote blockquote img {
+    max-width:458px;
+    height:auto;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:-25px;
+}
+
+ol {
+    margin-left:-25px;
+}
+
+li {
+    padding-left:5px;
+}
+
+/* CREDIT STYLING : PLS DON'T DELETE! IT'S SMALL & UNOBTRUSIVE & LETS PEOPLE KNOW WHERE YOUR THEME CAME FROM */
+
+.ananas {
+    width:25px;
+    height:25px;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    border-radius:25px;
+    line-height:25px;
+    font-size:14px;
+    background:#fff;
+    text-align:center;
+}
+
+/* MISC CONTAINER THINGS */
+
+#container {
+    width:900px;
+    height:600px;
+    background:{color:container background background};
+    position:absolute;
+    top:0;left:0;bottom:0;right:0;
+    margin:auto;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+#topbar {
+    width:900px;
+    height:40px;
+    background-color:{color:top and side bars};
+    border-bottom:1px #f0f0f0 solid;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.dot {
+    width:12px;
+    height:12px;
+    border-radius:100px;
+    border:1px rgba(0,0,0,.2) solid;
+}
+
+#catchy {
+    width:450px;
+    height:50px;
+    text-align:right;
+    position:absolute;
+    bottom:240px;
+    left:150px;
+    font-family:mont;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    word-spacing:4px;
+}
+
+#catchy1 {
+    width:450px;
+    height:25px;
+    text-align:left;
+    position:absolute;
+    bottom:215px;
+    left:150px;
+    font-family:mont;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    word-spacing:4px;
+}
+
+#catchy2 {
+    width:450px;
+    height:25px;
+    text-align:right;
+    position:absolute;
+    bottom:185px;
+    left:150px;
+    font-family:mont;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    word-spacing:4px;
+}
+
+grey {
+    color:{color:grey text};
+}
+
+.urlbar {
+    width:600px;
+    padding-left:15px;
+    height:20px;
+    position:absolute;
+    top:0;left:0;
+    right:0;bottom:0;
+    margin:auto;
+    background:#fafafa;
+    border:1px rgba(0,0,0,.2) solid;
+    border-radius:8px;
+    line-height:20px;
+}
+
+#postscontain {
+    width:650px;
+    height:560px;
+    position:absolute;
+    top:40px;
+    left:0px;
+    overflow-y:scroll;
+}
+
+#headercontain {
+    width:650px;
+    height:560px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#appbutton {
+    padding:12px 30px 12px 30px;
+    border-radius:500px;
+    position:absolute;
+    bottom:130px;
+    right:55px;
+    font-family:mont;
+    font-size:16px;
+    background:{color:accent};
+    color:{color:top and side bars};
+    cursor:pointer;
+    text-decoration:none;
+}
+
+a:visited {
+    color:inherit;
+}
+
+#sidebar {
+    width:250px;
+    height:559px;
+    background:{color:top and side bars};
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,.05));
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,.05));
+}
+
+h1 {
+    width:230px;
+    height:20px;
+    margin-top:15px;
+    margin-left:0px;
+    font-family:mont;
+    font-size:14px;
+    text-transform:uppercase;
+    text-align:right;
+}
+
+#videos {
+    width:210px;
+    height:350px;
+    margin-left:20px;
+    text-align:right;
+    line-height:12px;
+}
+
+#navi {
+    width:210px;
+    height:199px;
+    margin-left:20px;
+    text-align:right;
+    font-family:abeezee;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:bold;
+    color:{color:grey text};
+    line-height:20px;
+}
+
+#navi a {
+    color:inherit;
+    text-decoration:none;
+}
+
+#videos img {
+    width:160px;
+    margin-bottom:5px;
+}
+
+#videos a, #videos a:visited {
+    margin-left:0px;
+    color:inherit;
+    text-decoration:none;
+    font-family:abeezee;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:bold;
+    color:{color:grey text};
+}
+
+#image1 {
+    width:300px;
+    height:220px;
+    position:absolute;
+    top:20px;
+    left:300px;
+    background:#000;
+    background-image:url('{image:right image}');
+    border-radius:12px;
+    background-size:cover;
+}
+
+#image2 {
+    width:300px;
+    height:160px;
+    position:absolute;
+    top:60px;
+    left:30px;
+    background:#808080;
+    background-image:url('{image:left image}');
+    border-radius:12px;
+    background-size:cover;
+}
+
+#tnc {
+    width:580px;
+    position:absolute;
+    left:30px;
+    top:480px;
+}
+
+/* POSTS STYLING */
+ 
+.posts {
+    width:650px;
+    position:absolute;
+    display:block;
+    top:560px;
+    right:0px;
+}
+
+.postholder {
+    width:540px;
+    height:auto;
+    display:inline-block;
+    margin-left:55px;
+    margin-top:40px;
+    margin-bottom:0px;
+    overflow:hidden;
+    background:{color:post background};
+    border-radius:10px;
+}
+
+.post {
+    background:{color:post background};
+    width:500px;
+    display:inline-block;
+    height:auto;
+    padding:0px 20px 10px 20px;
+    font-size:12px;
+    text-align:justify;
+}
+
+.postholder:last-of-type {
+    margin-bottom:20px;
+}
+
+.post img {
+    max-width:500px;
+    height:auto;
+    border-radius:5px;
+}
+
+.photoset {
+    width:500px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+/* ASK POSTS */
+
+.askee {
+    text-transform:lowercase;
+    width:480px;
+    text-align:left;
+    padding:10px;
+    background:{color:container background};
+    color:{color:accent};
+    border-radius:10px 10px 0px 0px;
+}
+
+.askee i {
+    color:{color:accent};
+}
+
+.askee a {
+    color:{color:accent};
+}
+
+.question {
+    width:478px;
+    padding:10px;
+    text-align:justify;
+    text-align-last:center;
+    border:1px {color:container background} solid;
+    border-radius:0px 0px 10px 10px;
+}
+
+/* QUOTE POSTS */
+
+.quotetext {
+    width:480px;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.source {
+    font-size:12px;
+    float:right;
+}
+
+/* AUDIO */
+
+.playbutton {
+    border-radius:200px;
+    width:20px;
+    height:20px;
+    z-index:400;
+    overflow:hidden;
+    -webkit-filter:contrast(0%) brightness(1500%);
+    filter:contrast(0%) brightness(1500%);
+    position:relative;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.albumart {
+    position:relative;
+    margin-top:-50px;
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+
+.albumart img {
+    width:80px;
+}
+
+.trackinfo {
+    width:400px;
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom:20px;
+    height:35px;
+    overflow:hidden;
+    position:relative;
+    margin-top:-80px;
+    margin-bottom:20px;
+    left:80px;
+    background:#fff;
+}
+
+.trackname {
+    font-weight:bold;
+    color:#000;
+    font-size:13px;
+}
+
+.artist {
+    color:#333;
+    font-size:11px;
+}
+
+/* INFO */
+
+.tags {
+    width:500px;
+    text-align:justify;
+    text-align-last:center;
+    padding:10px 20px 20px 20px;
+    font-size:11px;
+    margin-left:55px;
+}
+
+.tag a {
+    text-transform:lowercase;
+    color:{color:tags};
+    transition: all 1s ease-in-out; 
+    moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.tag a:hover {
+    text-transform:lowercase;
+    color:{color:tags hover};
+    text-decoration:none;
+}
+
+.tag {
+    padding-right:10px;
+    display:inline;
+}
+
+.postinfo {
+    width:540px;
+    height:30px;
+    padding-bottom:0px;
+}
+
+.postinfo a {
+    color:{color:tags};
+}
+
+.postinfo span {
+    margin-right:5px;
+}
+
+.postdate {
+    float:left;
+    padding-right:10px;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-left:20px;
+    margin-top:10px;
+    border-right:1px {color:container background background} solid;
+}
+
+.postnotestat {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:10px;
+    border-right:1px {color:container background} solid;
+}
+
+.reblogpost {
+    float:left;
+    height:24px;
+    line-height:26px;
+    text-align:center;
+    text-transform:lowercase;
+    font-size:11px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.posts h1, .posts title {
+    color:{color:accent};
+    font-size:30px;
+    line-height:30px;
+    margin:10px 0px 0px 0px;
+    font-family:'mont';
+    text-align:center;
+    letter-spacing:2px;
+    font-weight:normal;
+    text-transform:lowercase;
+}
+ 
+/* PAGINATION */
+ 
+#pagination{
+    width:650px;
+    height:32px;
+    border-radius:8px;
+    line-height:32px;
+    margin-left:0px;
+    margin-bottom:40px;
+    color:{color:text};
+    font-size:12px;
+    text-transform:uppercase;
+    text-align:center;
+}
+ 
+#pagination a{
+    color:{color:text};
+    padding:0px 5px 5px 0px;
+}
+
+#sidebar h1 {
+    color:{color:text};
+}
+
+#headercontain i {
+    color:{color:text};
+}
+
+
+</style>
+</head>
+<body>
+<div id="container">
+
+<div id="sidebar">
+    <h1>{text:videos title}</h1>
+    
+    <div id="videos">
+        
+        <a href="{text:video 1 url}">
+            <img src="{image:video 1}"/><br>
+            <grey>{text:video 1 name}</grey>
+        </a><br><br>
+        
+        <a href="{text:video 2 url}">
+            <img src="{image:video 2}"/><br>
+            <grey>{text:video 2 name}</grey>
+        </a><br><br>
+        
+        <a href="{text:video 3 url}">
+            <img src="{image:video 3}"/><br>
+            <grey>{text:video 3 name}</grey>
+        </a>
+        
+    </div>
+    
+    <h1>{text:links title}</h1>
+    
+    <div id="navi">
+        <a href="{text:link 1 url}">{text:link 1 text}</a><br>
+        <a href="{text:link 2 url}">{text:link 2 text}</a><br>
+        <a href="{text:link 3 url}">{text:link 3 text}</a><br>
+        <a href="{text:link 4 url}">{text:link 4 text}</a><br>
+        <a href="{text:link 5 url}">{text:link 5 text}</a><br>
+    </div>
+</div>
+
+<div id="topbar">
+    <div class="dot" style="position:absolute;top:13px;left:20px;background:#ff685d;"></div>
+    <div class="dot" style="position:absolute;top:13px;left:44px;background:#ffcc5d;"></div>
+    <div class="dot" style="position:absolute;top:13px;left:68px;background:#6fd669;"></div>
+    <div class="urlbar"><grey>https://</grey>{text:url bar text}</div>
+</div>
+<div id="postscontain">
+<div id="headercontain">
+<div id="image1"></div>
+<div id="image2"></div>
+<div id="tnc"><grey>{text:disclaimer}</grey>
+<br>Copyright (C) {text:copyright holder} All Rights Reserved</div>
+
+<div id="catchy">{text:first line}</div>
+<div id="catchy1">{text:second line}</div>
+<div id="catchy2">{text:third line}</div>
+<a id="appbutton" href="https://producexhq.tumblr.com">{text:button text}</a>
+</div>
+
+<!-- POSTS -->
+    
+<div class="posts">    
+{block:Posts}
+<div class="postholder">
+
+<!-- POST INFO -->
+<div class="postinfo">
+
+{block:IfDayMonthYearFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {DayOfMonth} {ShortMonth} {Year}{/block:Date}</a></div>
+{/block:IfDayMonthYearFormat}
+{block:IfTimeAgoFormat}
+<div class="postdate"><a href="{Permalink}"><span class="lnr lnr-clock"></span> {block:Date} {TimeAgo} {/block:Date}</a></div>
+{/block:IfTimeAgoFormat}
+<div class="postnotestat"><a href="{Permalink}"><span class="lnr lnr-tag"></span> {NoteCountWithLabel}</a></div>
+<div class="reblogpost"><a href="{ReblogURL}"><span class="lnr lnr-sync"></span> reblog</a></div>
+</div>
+
+<div class="post">
+
+<!-- TEXT POSTS -->
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+{Body}
+{/block:Text}
+ 
+<!-- ANSWER POSTS -->
+{block:Answer}
+<div class="askee"><i> {Asker} asked:</i></div><div class="question">{Question}
+</div>
+{Answer}
+{/block:Answer}
+ 
+<!-- QUOTE POSTS -->
+{block:Quote}
+<div class="quotetext">“ {Quote} ”
+{block:Source}<br><div class="source">— <i>{Source}</i></div>{/block:Source}
+</div>
+{/block:Quote}
+ 
+<!-- LINK POSTS -->
+{block:Link}
+<link><a href="{URL}">{Name}</a></link>
+{block:Description}{Description}{/block:Description}    
+{/block:Link}
+ 
+<!-- CHAT POSTS -->
+{block:Chat}
+{block:Title}<h2>{Title}</h2>{/block:Title}
+{block:Lines}
+{block:Label}<b>{Label}</b>{/block:Label}
+{Line}<br>
+{/block:Lines}
+{/block:Chat}
+<!-- PHOTO POSTS -->
+{block:Photo}
+{LinkOpenTag}<img style="margin-top:10px;" src="{PhotoURL-500}" alt="{PhotoAlt}" width="400px">{LinkCloseTag}
+ 
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+<!-- PHOTOSET POSTS -->
+{block:Photoset}
+{Photoset}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}
+{block:AudioPlayer}
+<div class="playbutton">{AudioPlayerWhite}</div>
+{block:AlbumArt}<div class="albumart"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}
+<div class="trackinfo">
+<div class="trackname">
+{block:TrackName}{TrackName}{/block:TrackName}
+</div>
+<div class="artist">
+{block:Artist}{Artist}{/block:Artist}
+</div>
+<div class="album">
+{block:Album}{Album}{/block:Album}
+</div>
+<div class="playcount">
+{block:PlayCount}Played: {PlayCount} times{/block:PlayCount}
+</div>
+</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:AudioPlayer}
+{/block:Audio}
+
+ 
+<!-- VIDEO POSTS -->
+{block:Video}
+<div class="video">{Video-500}</div>
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+
+</div>
+
+</div>
+
+<!-- TAGS -->
+
+{block:HasTags} <div class="tags">{block:Tags} <div class="tag"><a href="{TagURL}"># {TAG}</a></div> {/block:Tags}</div> {/block:HasTags}
+
+{block:PostNotes}<div class="postnotes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+    
+ 
+{block:Pagination}
+<div id="pagination">
+     {block:PreviousPage}
+           <a href="{PreviousPage}">previous</a>
+     {/block:PreviousPage}
+     {block:NextPage}
+           <a href="{NextPage}">next</a>
+     {/block:NextPage}
+</div>
+{/block:Pagination}
+ 
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CREDIT : PLS DONT DELETE! -->
+
+<div class="ananas"><a href="https://sprfluous.tumblr.com" title="code by anna"><i class="far fa-star"></i></a></div>
+
+</body>
+
+
+</html>
